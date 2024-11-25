@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refunds",
+      "brokenLocator": "//a[@id\u003d\u0027navbarDropdown\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/ul/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240830_200559/Suite MOZ-10510/20240830_200601/Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refunds_idRelative.png"
+    }
+  ]
+}

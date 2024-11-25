@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B23128C30FD0F5D32BF9A35E27C412FD",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.DynamicJSONHandler",
+      "keywordMethods": [
+        {
+          "name": "dynamicJSONHandler",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "EBA14B091FBB852849AB52347EE4F620",
+  "keywordClasses": [
+    {
+      "name": "sample.UtillClassDemo",
+      "keywordMethods": [
+        {
+          "name": "ChromeLogin",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

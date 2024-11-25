@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite MOZ-10510,Chrome 127.0.0.0,,,27-08-2024 22:47:48,27-08-2024 23:08:37,20m - 48.300s,ERROR
+,,,,,,,
+Test Cases/MOZ-10510/TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid,Chrome 127.0.0.0,,,27-08-2024 22:47:49,27-08-2024 22:51:45,3m - 56.168s,ERROR
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 22:47:50,27-08-2024 22:50:00,2m - 10.301s,PASSED
+"requestIdValue = ""O062400001""",Chrome 127.0.0.0,,,27-08-2024 22:50:00,27-08-2024 22:50:00,0.003s,PASSED
+"sqlQuery = ""select * from bdmozart.md_rfnd_local_settlement where idrequest = 'O062400001'""",Chrome 127.0.0.0,,,27-08-2024 22:50:00,27-08-2024 22:50:00,0.005s,PASSED
+"fop_types_dbValue = database.DatabaseUtils.executeQuery(sqlQuery, ""fop_types"", 1)",Chrome 127.0.0.0,,,27-08-2024 22:50:00,27-08-2024 22:50:27,26.993s,PASSED
+"paid_amount_dbValue = database.DatabaseUtils.executeQuery(sqlQuery, ""balanceamounttotal"", 1)",Chrome 127.0.0.0,,,27-08-2024 22:50:27,27-08-2024 22:50:41,14.304s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 22:50:41,27-08-2024 22:50:53,11.606s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 127.0.0.0,,,27-08-2024 22:50:53,27-08-2024 22:50:57,4.428s,PASSED
+dynamicTestObject = new com.kms.katalon.core.testobject.TestObject(),Chrome 127.0.0.0,,,27-08-2024 22:50:57,27-08-2024 22:50:57,0.021s,PASSED
+refresh(),Chrome 127.0.0.0,,,27-08-2024 22:50:57,27-08-2024 22:51:28,30.820s,PASSED
+"listOfRequestIds = findWebElements(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/getListOfRequestIdFromGrid""), 10)",Chrome 127.0.0.0,,,27-08-2024 22:51:28,27-08-2024 22:51:31,2.991s,PASSED
+"for ([row = 1, row <= listOfRequestIds.size(), (row++)])",Chrome 127.0.0.0,,,27-08-2024 22:51:31,27-08-2024 22:51:45,13.863s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 127.0.0.0,,,27-08-2024 22:51:45,27-08-2024 22:51:45,0.027s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 9_MOZ_11450 Verifies that the internal configuration in the database is correctly set up to define the form of payments visible in the Local Settlements module,Chrome 127.0.0.0,,,27-08-2024 22:51:45,27-08-2024 22:54:45,3m - 0.086s,ERROR
+"Table_md_rfnd_local_settlement = database.DatabaseUtils.checkTableExists(""md_rfnd_local_settlement"")",Chrome 127.0.0.0,,,27-08-2024 22:51:46,27-08-2024 22:51:52,6.567s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(Table_md_rfnd_local_settlement, ""The mi_pnr_waiver table should be available in the database."")",Chrome 127.0.0.0,,,27-08-2024 22:51:52,27-08-2024 22:51:52,0.005s,PASSED
+"Column_paid_locally = database.DatabaseUtils.checkColumnExist(""mc_fop_types"", ""paid_locally"")",Chrome 127.0.0.0,,,27-08-2024 22:51:52,27-08-2024 22:51:58,5.994s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(Column_paid_locally, ""Column paid_locally is not available"")",Chrome 127.0.0.0,,,27-08-2024 22:51:58,27-08-2024 22:51:58,0.003s,PASSED
+"rowCount = database.DatabaseUtils.getRowCount(""select * from bdmozart.mc_fop_types where paid_locally = 't'"")",Chrome 127.0.0.0,,,27-08-2024 22:51:58,27-08-2024 22:52:04,5.286s,PASSED
+DataBaseEnableFopList = new java.util.ArrayList(),Chrome 127.0.0.0,,,27-08-2024 22:52:04,27-08-2024 22:52:04,0.002s,PASSED
+FilterFopList = new java.util.ArrayList(),Chrome 127.0.0.0,,,27-08-2024 22:52:04,27-08-2024 22:52:04,0.001s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",Chrome 127.0.0.0,,,27-08-2024 22:52:04,27-08-2024 22:52:20,15.973s,PASSED
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 22:52:20,27-08-2024 22:53:56,1m - 36.135s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 22:53:56,27-08-2024 22:54:36,40.044s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 127.0.0.0,,,27-08-2024 22:54:36,27-08-2024 22:54:40,4.530s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_button""))",Chrome 127.0.0.0,,,27-08-2024 22:54:40,27-08-2024 22:54:43,2.979s,PASSED
+"click(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/textbox_filter_r2_c3""))",Chrome 127.0.0.0,,,27-08-2024 22:54:43,27-08-2024 22:54:44,0.391s,PASSED
+"FopValues = findWebElements(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_RefundFopPaidLocally_values""), 10)",Chrome 127.0.0.0,,,27-08-2024 22:54:44,27-08-2024 22:54:44,0.476s,PASSED
+dynamicTestObject = new com.kms.katalon.core.testobject.TestObject(),Chrome 127.0.0.0,,,27-08-2024 22:54:44,27-08-2024 22:54:44,0.002s,PASSED
+println(FopValues.size()),Chrome 127.0.0.0,,,27-08-2024 22:54:44,27-08-2024 22:54:44,0.002s,PASSED
+"for ([row = 1, row <= FopValues.size(), (row++)])",Chrome 127.0.0.0,,,27-08-2024 22:54:44,27-08-2024 22:54:45,0.867s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(size().equals(FilterFopList.size()), ""Fop list is count is not match"")",Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.003s,PASSED
+uniqueFopValues = new java.util.HashSet(),Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.027s,PASSED
+try,Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.007s,PASSED
+webFopValues = new java.util.ArrayList(uniqueFopValues),Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.003s,PASSED
+Collections.sort(webFopValues),Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.019s,PASSED
+Collections.sort(DataBaseEnableFopList),Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.000s,PASSED
+areEqual = webFopValues.equals(DataBaseEnableFopList),Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.000s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(areEqual, ""FOP found in filter is not matchnig"")",Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.000s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:54:45,0.016s,FAILED
+,,,,,,,
+"Test Cases/MOZ-10510/TC 8_MOZ_11449 Verify the Availability of Group By,My Filters, and Download Options in the Local Settlements Module",Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:56:45,1m - 59.722s,PASSED
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 22:54:45,27-08-2024 22:55:27,41.546s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 22:55:27,27-08-2024 22:56:00,32.915s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 127.0.0.0,,,27-08-2024 22:56:00,27-08-2024 22:56:33,33.385s,PASSED
+"verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_button""), 5, STOP_ON_FAILURE)",Chrome 127.0.0.0,,,27-08-2024 22:56:33,27-08-2024 22:56:43,9.563s,PASSED
+"verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/groupBy_button""), 5, STOP_ON_FAILURE)",Chrome 127.0.0.0,,,27-08-2024 22:56:43,27-08-2024 22:56:45,1.995s,PASSED
+,,,,,,,
+Test Cases/MOZ-10510/TC 7_MOZ_11448 Verify Grid Display in the Local Settlements Module,Chrome 127.0.0.0,,,27-08-2024 22:56:45,27-08-2024 22:58:28,1m - 43.080s,ERROR
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 22:56:45,27-08-2024 22:57:25,39.574s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 22:57:25,27-08-2024 22:57:55,30.452s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 127.0.0.0,,,27-08-2024 22:57:55,27-08-2024 22:58:25,30.296s,PASSED
+"listOfHeaderColumns = findWebElements(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filterTable_headers""), 10)",Chrome 127.0.0.0,,,27-08-2024 22:58:25,27-08-2024 22:58:27,2.042s,PASSED
+println(listOfHeaderColumns.size()),Chrome 127.0.0.0,,,27-08-2024 22:58:27,27-08-2024 22:58:27,0.003s,PASSED
+"elements = [""xyz"", ""Request Id"", ""Processing Date (yyyy-mm-dd)"", ""Ticket Number"", ""Request Number"", ""Passenger Name"", ""Country"", ""Agent code"", ""Refund Amount"", ""Currency"", ""Refund FOP Paid Locally"", ""Reason""]",Chrome 127.0.0.0,,,27-08-2024 22:58:27,27-08-2024 22:58:27,0.000s,PASSED
+"for ([i = 1, i < listOfHeaderColumns.size(), (i++)])",Chrome 127.0.0.0,,,27-08-2024 22:58:27,27-08-2024 22:58:28,0.415s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 127.0.0.0,,,27-08-2024 22:58:28,27-08-2024 22:58:28,0.010s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 6_MOZ_11447 Verify Default Filtering Values in the Local Settlements Module,Chrome 127.0.0.0,,,27-08-2024 22:58:28,27-08-2024 23:01:01,2m - 33.422s,FAILED
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 22:58:28,27-08-2024 22:59:17,48.766s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 22:59:17,27-08-2024 22:59:54,37.112s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 127.0.0.0,,,27-08-2024 22:59:54,27-08-2024 22:59:59,4.660s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_button""))",Chrome 127.0.0.0,,,27-08-2024 22:59:59,27-08-2024 23:01:01,1m - 2.617s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 5_MOZ_11446 Verify Landing Page Layout and Filtering Area for the Local Settlements Module,Chrome 127.0.0.0,,,27-08-2024 23:01:01,27-08-2024 23:04:48,3m - 47.057s,FAILED
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 23:01:02,27-08-2024 23:04:48,3m - 46.809s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 4_MOZ_11445 Verify User Role other than the auditor or supervisor Access Levels for the Local Settlements Module,Chrome 127.0.0.0,,,27-08-2024 23:04:48,27-08-2024 23:04:56,7.799s,FAILED
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 23:04:49,27-08-2024 23:04:56,7.621s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 3_MOZ_11445 Verify User Role Auditor Access Levels for the Local Settlements Module,Chrome 127.0.0.0,,,27-08-2024 23:04:56,27-08-2024 23:06:56,1m - 59.427s,PASSED
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 23:04:56,27-08-2024 23:05:51,55.002s,PASSED
+delay(2),Chrome 127.0.0.0,,,27-08-2024 23:05:51,27-08-2024 23:05:53,2.097s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 23:05:53,27-08-2024 23:06:55,1m - 1.413s,PASSED
+"checkForSupervisor = verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""), 2)",Chrome 127.0.0.0,,,27-08-2024 23:06:55,27-08-2024 23:06:55,0.247s,PASSED
+println(checkForSupervisor),Chrome 127.0.0.0,,,27-08-2024 23:06:55,27-08-2024 23:06:55,0.002s,PASSED
+assert checkForSupervisor,Chrome 127.0.0.0,,,27-08-2024 23:06:55,27-08-2024 23:06:55,0.007s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,27-08-2024 23:06:55,27-08-2024 23:06:56,0.487s,PASSED
+,,,,,,,
+Test Cases/MOZ-10510/TC 2_MOZ_11445 Verify User Role Supervisor Access Levels for the Local Settlements Module,Chrome 127.0.0.0,,,27-08-2024 23:06:56,27-08-2024 23:07:43,47.388s,PASSED
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 23:06:56,27-08-2024 23:07:21,25.175s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 23:07:21,27-08-2024 23:07:42,21.200s,PASSED
+"checkForAuditor = verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""), 2)",Chrome 127.0.0.0,,,27-08-2024 23:07:42,27-08-2024 23:07:43,0.257s,PASSED
+println(checkForAuditor),Chrome 127.0.0.0,,,27-08-2024 23:07:43,27-08-2024 23:07:43,0.001s,PASSED
+assert checkForAuditor,Chrome 127.0.0.0,,,27-08-2024 23:07:43,27-08-2024 23:07:43,0.001s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,27-08-2024 23:07:43,27-08-2024 23:07:43,0.513s,PASSED
+,,,,,,,
+Test Cases/MOZ-10510/TC 1_MOZ_11444 Verify Creation of the Local Settlements Module in Mozart,Chrome 127.0.0.0,,,27-08-2024 23:07:43,27-08-2024 23:08:37,53.661s,ERROR
+demoPackage.MozartLogin.mozartLoginWithUser(),Chrome 127.0.0.0,,,27-08-2024 23:07:43,27-08-2024 23:08:12,28.829s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 127.0.0.0,,,27-08-2024 23:08:12,27-08-2024 23:08:36,24.337s,PASSED
+"val = verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""), 2)",Chrome 127.0.0.0,,,27-08-2024 23:08:36,27-08-2024 23:08:37,0.244s,PASSED
+println(val),Chrome 127.0.0.0,,,27-08-2024 23:08:37,27-08-2024 23:08:37,0.001s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(val, ""Local settlement module is not present"")",Chrome 127.0.0.0,,,27-08-2024 23:08:37,27-08-2024 23:08:37,0.002s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 127.0.0.0,,,27-08-2024 23:08:37,27-08-2024 23:08:37,0.004s,FAILED

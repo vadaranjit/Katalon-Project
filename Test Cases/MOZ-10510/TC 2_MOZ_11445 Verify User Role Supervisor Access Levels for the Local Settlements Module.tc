@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 2_MOZ_11445 Verify User Role Supervisor Access Levels for the Local Settlements Module</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac68691e-e1a3-44fe-9cfb-23b1ff07e07f</testCaseGuid>
+</TestCaseEntity>

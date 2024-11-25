@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_2_MOZ-13228_Verify that the system correctly stores TRIPS-Quote data in the corresponding database tables</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e9a07db-76af-4aae-9277-ce55c677a7e2</testCaseGuid>
+</TestCaseEntity>

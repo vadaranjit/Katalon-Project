@@ -1,0 +1,107 @@
+{
+	"tripsRefundRequest": {
+		"requestIdentifier": "5765775454",
+		"ticketRangeList": [
+			{
+				"ticketRange": "1761234567885-888",
+				"ticketLists": [
+					{
+						"ticketNumber": "1761234567885",
+						"listOfCoupons": [
+							{
+								"couponNumber": "1",
+								"couponStatus": "Refund"
+							}
+						]
+					},
+					{
+						"ticketNumber": "1761234567886",
+						"listOfCoupons": [
+							{
+								"couponNumber": "2",
+								"couponStatus": "Refund"
+							}
+						]
+					},
+					{
+						"ticketNumber": "1761234567887",
+						"listOfCoupons": [
+							{
+								"couponNumber": "3",
+								"couponStatus": "Refund"
+							}
+						]
+					},
+					{
+						"ticketNumber": "1761234567888",
+						"listOfCoupons": [
+							{
+								"couponNumber": "4",
+								"couponStatus": "Refund"
+							}
+						]
+					}
+				]
+			}
+		],
+		"ticketRefundDetails": {
+			"totalRefundDetails": {
+				"totalRefundAmount": "775",
+				"currencyCode": "AED"
+			}
+		},
+		"totalBaseFareDetails": {
+			"totalBaseFareRefundAmount": "670",
+			"currencyCode": "AED"
+		},
+		"rafDetails": {
+			"rafAmount": "100",
+			"currencyCode": "AED"
+		},
+		"totalRefundableTaxDetails": {
+			"totalRefundableTaxAmount": "205",
+			"currencyCode": "AED",
+			"taxRefundByTaxTypeCode": [
+				{
+					"taxCode": "JN",
+					"taxRefundAmount": "",
+					"currencyCode": "AED"
+				},
+				{
+					"taxCode": "AY",
+					"taxRefundAmount": "",
+					"currencyCode": "AED"
+				}
+			]
+		},
+		"refundDate": "10/01/2023",
+		"exception": "",
+		"formOfRefundPayment": [
+			{
+				"formofRefund": "CCD",
+				"fopRefundableAmount": "205",
+				"currencyCode": "AED"
+			},
+			{
+				"formofRefund": "CAA",
+				"fopRefundableAmount": "102",
+				"currencyCode": "AED"
+			}
+		],
+		"refundRequestDateTime": "13/12/2023 16:20:15",
+		"sourceIdentifier": "TRIPS-RAPID",
+		"loyaltyFareDetails": {
+			"loyaltyProgram": "Skywards",
+			"rewardTypeCode": "CPM",
+			"rewardType": "CashplusMiles",
+			"loyaltyMembershipNumber": "388436576",
+			"loyaltyCurrency": "MILES",
+			"loyaltyValue": "21563",
+			"equivalentCashValue": "143.75",
+			"equivalentCashCurrencyCode": "USD",
+			"percentageCashPayment": "60.07",
+			"percentageLoyaltyPayment": "39.93",
+			"crisUpdateIndicator": true
+		}
+	}
+}

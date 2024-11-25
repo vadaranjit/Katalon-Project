@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demo,,,,22-10-2024 16:10:23,22-10-2024 16:10:25,1.898s,ERROR
+,,,,,,,
+Test Cases/MOZ-99999/dataformat,,,,22-10-2024 16:10:25,22-10-2024 16:10:25,0.079s,ERROR
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,22-10-2024 16:10:25,22-10-2024 16:10:25,0.002s,PASSED
+println(findTestData(password)),,,,22-10-2024 16:10:25,22-10-2024 16:10:25,0.005s,ERROR
+,,,,,,,
+Test Cases/MOZ-99999/dataformat,,,,22-10-2024 16:10:25,22-10-2024 16:10:25,0.049s,ERROR
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,22-10-2024 16:10:25,22-10-2024 16:10:25,0.001s,PASSED
+println(findTestData(password)),,,,22-10-2024 16:10:25,22-10-2024 16:10:25,0.005s,ERROR

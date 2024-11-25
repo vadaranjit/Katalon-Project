@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="loginSuite2" time="87.095" tests="2" failures="0" errors="0">
+   <testsuite name="loginSuite2" tests="2" failures="0" errors="0" time="87.095" skipped="0" timestamp="23-09-2024T17:57:30" hostname="ranajit.vadar - CCE0231.accelya.local" id="Test Suites/loginSuite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20240923_175546\\loginSuite2\\20240923_175550"/>
+         <property name="logFiles" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20240923_175546\\loginSuite2\\20240923_175550\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ranajit.vadar - CCE0231.accelya.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Firefox 127.0"/>
+         <property name="hostAddress" value="10.50.1.144"/>
+         <property name="sessionId" value="28ac94de-eaba-43fc-b965-a304c145db50"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MOZ-99999/login1" time="41.35" classname="Test Cases/MOZ-99999/login1" status="PASSED">
+         <system-out><![CDATA[23-09-2024T17:57:37 - [TEST_CASE][PASSED] - Test Cases/MOZ-99999/login1: Test Cases/MOZ-99999/login1
+
+23-09-2024T17:57:37 - [TEST_STEP][PASSED] - mozartLogin.Login.launchBrowser(): mozartLogin.Login.launchBrowser is PASSED
+
+23-09-2024T17:57:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+23-09-2024T17:57:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-09-2024T17:57:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-09-2024T17:57:45 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+23-09-2024T17:57:45 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T17:57:54 - [MESSAGE][PASSED] - Navigate to 'https://accelyacomtest.accelya.local/MozartTest/AirlinesHub/Index' successfully
+
+23-09-2024T17:57:55 - [MESSAGE][PASSED] - Keys 'supermozart' sent to object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/username_textBox'
+
+23-09-2024T17:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/next_button' is clicked on
+
+23-09-2024T17:57:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/password_textBox'
+
+23-09-2024T17:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/signIn_button' is clicked on
+
+23-09-2024T17:58:11 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+23-09-2024T17:58:12 - [MESSAGE][PASSED] - 14 options of object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_button_selectTag' counted
+
+23-09-2024T17:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_Button' is clicked on
+
+23-09-2024T17:58:13 - [MESSAGE][PASSED] - Text of object '' is: '000 [StandardAirline]'
+
+23-09-2024T17:58:13 - [MESSAGE][PASSED] - Text of object '' is: '027 [Alaska027]'
+
+23-09-2024T17:58:13 - [MESSAGE][PASSED] - Text of object '' is: '030 [Vueling030]'
+
+23-09-2024T17:58:14 - [MESSAGE][PASSED] - Text of object '' is: '081 [Qantas081]'
+
+23-09-2024T17:58:14 - [MESSAGE][PASSED] - Text of object '' is: '082 [Brussels]'
+
+23-09-2024T17:58:14 - [MESSAGE][PASSED] - Text of object '' is: '114 [ElAl]'
+
+23-09-2024T17:58:14 - [MESSAGE][PASSED] - Text of object '' is: '134 [Avianca]'
+
+23-09-2024T17:58:15 - [MESSAGE][PASSED] - Text of object '' is: '173 [Demo]'
+
+23-09-2024T17:58:15 - [MESSAGE][PASSED] - Text of object '' is: '176 [Emirates]'
+
+23-09-2024T17:58:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+23-09-2024T17:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/btn_select' is clicked on
+
+23-09-2024T17:58:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EK_Objects/Page_Mozart - Dashboard/txt_dashboard' are matched.
+
+23-09-2024T17:58:18 - [MESSAGE][PASSED] - mozartLogin.Login.launchBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOZ-99999/login2" time="39.324" classname="Test Cases/MOZ-99999/login2" status="PASSED">
+         <system-out><![CDATA[23-09-2024T17:58:18 - [TEST_CASE][PASSED] - Test Cases/MOZ-99999/login2: Test Cases/MOZ-99999/login2
+
+23-09-2024T17:58:18 - [TEST_STEP][PASSED] - mozartLogin.Login.launchBrowser(): mozartLogin.Login.launchBrowser is PASSED
+
+23-09-2024T17:58:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-09-2024T17:58:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+23-09-2024T17:58:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-09-2024T17:58:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-09-2024T17:58:25 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+23-09-2024T17:58:25 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T17:58:34 - [MESSAGE][PASSED] - Navigate to 'https://accelyacomtest.accelya.local/MozartTest/AirlinesHub/Index' successfully
+
+23-09-2024T17:58:34 - [MESSAGE][PASSED] - Keys 'supermozart' sent to object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/username_textBox'
+
+23-09-2024T17:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/next_button' is clicked on
+
+23-09-2024T17:58:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/password_textBox'
+
+23-09-2024T17:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/signIn_button' is clicked on
+
+23-09-2024T17:58:51 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+23-09-2024T17:58:51 - [MESSAGE][PASSED] - 14 options of object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_button_selectTag' counted
+
+23-09-2024T17:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_Button' is clicked on
+
+23-09-2024T17:58:52 - [MESSAGE][PASSED] - Text of object '' is: '000 [StandardAirline]'
+
+23-09-2024T17:58:52 - [MESSAGE][PASSED] - Text of object '' is: '027 [Alaska027]'
+
+23-09-2024T17:58:52 - [MESSAGE][PASSED] - Text of object '' is: '030 [Vueling030]'
+
+23-09-2024T17:58:53 - [MESSAGE][PASSED] - Text of object '' is: '081 [Qantas081]'
+
+23-09-2024T17:58:53 - [MESSAGE][PASSED] - Text of object '' is: '082 [Brussels]'
+
+23-09-2024T17:58:53 - [MESSAGE][PASSED] - Text of object '' is: '114 [ElAl]'
+
+23-09-2024T17:58:53 - [MESSAGE][PASSED] - Text of object '' is: '134 [Avianca]'
+
+23-09-2024T17:58:54 - [MESSAGE][PASSED] - Text of object '' is: '173 [Demo]'
+
+23-09-2024T17:58:54 - [MESSAGE][PASSED] - Text of object '' is: '176 [Emirates]'
+
+23-09-2024T17:58:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+23-09-2024T17:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/btn_select' is clicked on
+
+23-09-2024T17:58:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EK_Objects/Page_Mozart - Dashboard/txt_dashboard' are matched.
+
+23-09-2024T17:58:57 - [MESSAGE][PASSED] - mozartLogin.Login.launchBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-09-2024T17:57:30 - [TEST_SUITE][FAILED] - loginSuite2: Test Cases/MOZ-99999/login1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at mozartLogin.Login.launchBrowser(Login.groovy:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login1.run(login1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727094350811.run(TempTestSuite1727094350811.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '10.50.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-out>
+      <system-err><![CDATA[23-09-2024T17:57:30 - [TEST_SUITE][FAILED] - loginSuite2: Test Cases/MOZ-99999/login1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at mozartLogin.Login.launchBrowser(Login.groovy:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at login1.run(login1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727094350811.run(TempTestSuite1727094350811.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '10.50.1.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CGeckoDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.<init>(CFirefoxDriver.java:22)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.<init>(CGeckoDriver.java:12)
+	at com.kms.katalon.core.webui.driver.firefox.CGeckoDriver.from(CGeckoDriver.java:17)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewFirefoxDriver(DriverFactory.java:728)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:373)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-err>
+   </testsuite>
+</testsuites>

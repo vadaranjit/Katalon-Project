@@ -1,0 +1,93 @@
+{
+  "keywordFileContentHash": "DF4BBECE5183F66161BFD7547C334FFA",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.CustomSoftAssert",
+      "keywordMethods": [
+        {
+          "name": "assertTrue",
+          "parameters": [
+            {
+              "name": "condition",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "message",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Asserts that a condition is true.\r\n\t *\r\n\t * If the condition is false, an assertion error is collected to be reported at the end of the test.\r\n\t *\r\n\t * @param condition The condition to evaluate.\r\n\t * @param message The message to include in the assertion error if the condition is false.\r\n\t */"
+        },
+        {
+          "name": "assertEquals",
+          "parameters": [
+            {
+              "name": "actual",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "expected",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "message",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Asserts that two strings are equal.\r\n\t *\r\n\t * If the strings are not equal, an assertion error is collected to be reported at the end of the test.\r\n\t *\r\n\t * @param actual The actual string value.\r\n\t * @param expected The expected string value.\r\n\t * @param message The message to include in the assertion error if the strings are not equal.\r\n\t */"
+        },
+        {
+          "name": "assertAll",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Asserts that all collected soft assertions are validated.\r\n\t *\r\n\t * This method should be called at the end of a test to report all collected assertion errors.\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

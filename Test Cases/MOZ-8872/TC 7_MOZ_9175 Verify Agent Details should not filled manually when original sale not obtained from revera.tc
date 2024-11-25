@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 7_MOZ_9175 Verify Agent Details should not filled manually when original sale not obtained from revera</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>304831ce-838d-4109-8929-d6bbdbfee7fe</testCaseGuid>
+</TestCaseEntity>

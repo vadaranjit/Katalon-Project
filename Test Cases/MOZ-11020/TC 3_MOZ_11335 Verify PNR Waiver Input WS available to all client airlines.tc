@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a8eafcc-6d20-408b-a943-69456b6c7e1f</testCaseGuid>
+</TestCaseEntity>

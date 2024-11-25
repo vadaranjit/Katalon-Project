@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1_MOZ-12909_Verify that embedded TKT-Quote processed correctly, and the quote data is stored in the database tables</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>91d0b93c-1d5f-4927-b629-380c23f74385</testCaseGuid>
+</TestCaseEntity>

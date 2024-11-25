@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "7B4A594AB42E14CE0510E96224A8BF0F",
+  "keywordClasses": [
+    {
+      "name": "mozartLogin.Login",
+      "keywordMethods": [
+        {
+          "name": "launchBrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

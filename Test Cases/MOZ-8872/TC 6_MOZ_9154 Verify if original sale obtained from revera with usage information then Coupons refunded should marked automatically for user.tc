@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 6_MOZ_9154 Verify if original sale obtained from revera with usage information then Coupons refunded should marked automatically for user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ca0949f-934d-4e08-8f72-1c8d9ed52e74</testCaseGuid>
+</TestCaseEntity>

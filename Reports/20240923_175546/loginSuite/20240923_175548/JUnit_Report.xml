@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="loginSuite" time="64.426" tests="2" failures="0" errors="0">
+   <testsuite name="loginSuite" tests="2" failures="0" errors="0" time="64.426" skipped="0" timestamp="23-09-2024T17:56:04" hostname="ranajit.vadar - CCE0231.accelya.local" id="Test Suites/loginSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20240923_175546\\loginSuite\\20240923_175548"/>
+         <property name="logFiles" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20240923_175546\\loginSuite\\20240923_175548\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ranajit.vadar - CCE0231.accelya.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.50.1.144"/>
+         <property name="sessionId" value="6b756606291d0ae34f0c1527e6578316"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MOZ-99999/login1" time="35.059" classname="Test Cases/MOZ-99999/login1" status="PASSED">
+         <system-out><![CDATA[23-09-2024T17:56:04 - [TEST_CASE][PASSED] - Test Cases/MOZ-99999/login1: Test Cases/MOZ-99999/login1
+
+23-09-2024T17:56:05 - [TEST_STEP][PASSED] - mozartLogin.Login.launchBrowser(): mozartLogin.Login.launchBrowser is PASSED
+
+23-09-2024T17:56:10 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+23-09-2024T17:56:10 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T17:56:19 - [MESSAGE][PASSED] - Navigate to 'https://accelyacomtest.accelya.local/MozartTest/AirlinesHub/Index' successfully
+
+23-09-2024T17:56:19 - [MESSAGE][PASSED] - Keys 'supermozart' sent to object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/username_textBox'
+
+23-09-2024T17:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/next_button' is clicked on
+
+23-09-2024T17:56:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/password_textBox'
+
+23-09-2024T17:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/signIn_button' is clicked on
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - 14 options of object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_button_selectTag' counted
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_Button' is clicked on
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '000 [StandardAirline]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '027 [Alaska027]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '030 [Vueling030]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '081 [Qantas081]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '082 [Brussels]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '114 [ElAl]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '134 [Avianca]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '173 [Demo]'
+
+23-09-2024T17:56:35 - [MESSAGE][PASSED] - Text of object '' is: '176 [Emirates]'
+
+23-09-2024T17:56:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+23-09-2024T17:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/btn_select' is clicked on
+
+23-09-2024T17:56:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EK_Objects/Page_Mozart - Dashboard/txt_dashboard' are matched.
+
+23-09-2024T17:56:39 - [MESSAGE][PASSED] - mozartLogin.Login.launchBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOZ-99999/login2" time="28.888" classname="Test Cases/MOZ-99999/login2" status="PASSED">
+         <system-out><![CDATA[23-09-2024T17:56:39 - [TEST_CASE][PASSED] - Test Cases/MOZ-99999/login2: Test Cases/MOZ-99999/login2
+
+23-09-2024T17:56:39 - [TEST_STEP][PASSED] - mozartLogin.Login.launchBrowser(): mozartLogin.Login.launchBrowser is PASSED
+
+23-09-2024T17:56:41 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+23-09-2024T17:56:41 - [MESSAGE][PASSED] - Current window maximized
+
+23-09-2024T17:56:49 - [MESSAGE][PASSED] - Navigate to 'https://accelyacomtest.accelya.local/MozartTest/AirlinesHub/Index' successfully
+
+23-09-2024T17:56:50 - [MESSAGE][PASSED] - Keys 'supermozart' sent to object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/username_textBox'
+
+23-09-2024T17:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/next_button' is clicked on
+
+23-09-2024T17:56:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/password_textBox'
+
+23-09-2024T17:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/signIn_button' is clicked on
+
+23-09-2024T17:57:05 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+23-09-2024T17:57:05 - [MESSAGE][PASSED] - 14 options of object 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_button_selectTag' counted
+
+23-09-2024T17:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/pleaseSelect_Button' is clicked on
+
+23-09-2024T17:57:05 - [MESSAGE][PASSED] - Text of object '' is: '000 [StandardAirline]'
+
+23-09-2024T17:57:05 - [MESSAGE][PASSED] - Text of object '' is: '027 [Alaska027]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Text of object '' is: '030 [Vueling030]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Text of object '' is: '081 [Qantas081]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Text of object '' is: '082 [Brussels]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Text of object '' is: '114 [ElAl]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Text of object '' is: '134 [Avianca]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Text of object '' is: '173 [Demo]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Text of object '' is: '176 [Emirates]'
+
+23-09-2024T17:57:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+23-09-2024T17:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/btn_select' is clicked on
+
+23-09-2024T17:57:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/EK_Objects/Page_Mozart - Dashboard/txt_dashboard' are matched.
+
+23-09-2024T17:57:08 - [MESSAGE][PASSED] - mozartLogin.Login.launchBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-09-2024T17:56:04 - [TEST_SUITE][PASSED] - loginSuite: Test Cases/MOZ-99999/login2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

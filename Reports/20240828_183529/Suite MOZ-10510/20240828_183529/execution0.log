@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-28T13:05:39.304287200Z</date>
+  <millis>1724850339304</millis>
+  <nanos>287200</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Suite MOZ-10510</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Suite MOZ-10510</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Suite MOZ-10510</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:39.361291800Z</date>
+  <millis>1724850339361</millis>
+  <nanos>291800</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = ranajit.vadar - CCE0231.accelya.local</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">ranajit.vadar - CCE0231.accelya.local</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:39.363296900Z</date>
+  <millis>1724850339363</millis>
+  <nanos>296900</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:39.364295400Z</date>
+  <millis>1724850339364</millis>
+  <nanos>295400</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.50.1.32</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">10.50.1.32</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:39.365295100Z</date>
+  <millis>1724850339365</millis>
+  <nanos>295100</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 9.5.0.217</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">9.5.0.217</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:39.704319300Z</date>
+  <millis>1724850339704</millis>
+  <nanos>319300</nanos>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/MOZ-10510/TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/MOZ-10510/TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/MOZ-10510/TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid</property>
+  <property name="source">C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Test Cases\MOZ-10510\TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:40.598386300Z</date>
+  <millis>1724850340598</millis>
+  <nanos>386300</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : requestIdValue = &amp;quot;O062400001&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:40.605388Z</date>
+  <millis>1724850340605</millis>
+  <nanos>388000</nanos>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : requestIdValue = &amp;quot;O062400001&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-28T13:05:40.606389400Z</date>
+  <millis>1724850340606</millis>
+  <nanos>389400</nanos>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sqlQuery = &amp;quot;select * from bdmozart.md_rfnd_local_settlement where idrequest = &amp;apos;O062400001&amp;apos;&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-08-28T13:05:40.610390700Z</date>
+  <millis>1724850340610</millis>
+  <nanos>390700</nanos>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sqlQuery = &amp;quot;select * from bdmozart.md_rfnd_local_settlement where idrequest = &amp;apos;O062400001&amp;apos;&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-28T13:05:40.611390100Z</date>
+  <millis>1724850340611</millis>
+  <nanos>390100</nanos>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : fop_types_dbValue = database.DatabaseUtils.executeQuery(sqlQuery, &amp;quot;fop_types&amp;quot;, 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">3</property>
+</record>
+</log>

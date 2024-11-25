@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>demo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>90</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>09884976-4acc-47ae-824f-4d4fea3fe8ad</testSuiteGuid>
+   <testCaseLink>
+      <guid>176ffffb-d49b-4186-8209-425576d09c55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MOZ-99999/dataformat</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dc8a1ee3-93e2-4ae6-b264-507a9ea71f3e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Demo</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>dc8a1ee3-93e2-4ae6-b264-507a9ea71f3e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>8730d139-bbca-43c4-a48c-57e7f616736c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc8a1ee3-93e2-4ae6-b264-507a9ea71f3e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>21c29df9-de7f-4e44-9a75-18e987e08d49</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

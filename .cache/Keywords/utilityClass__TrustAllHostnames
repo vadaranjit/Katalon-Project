@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B785FECE6F80261D9CC7F74A81464AE7",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.TrustAllHostnames",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1_MOZ-12623_Verify that the refund request sent successfully and that the TKT Quote was received in the response</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>88619aa5-62d6-4b9a-8345-296b6182e98f</testCaseGuid>
+</TestCaseEntity>

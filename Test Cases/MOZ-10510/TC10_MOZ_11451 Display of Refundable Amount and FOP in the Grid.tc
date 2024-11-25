@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7db2856-742b-482e-b6fc-ed88bf12e9b2</testCaseGuid>
+</TestCaseEntity>

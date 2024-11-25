@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 8_MOZ_11449 Verify the Availability of Group By,My Filters, and Download Options in the Local Settlements Module</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4c51340-8eea-481b-8067-bf5dc58ea9db</testCaseGuid>
+</TestCaseEntity>

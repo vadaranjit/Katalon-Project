@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dataDriven,,,,22-10-2024 15:48:55,22-10-2024 15:48:57,2.120s,PASSED
+,,,,,,,
+Test Cases/MOZ-99999/dataformat,,,,22-10-2024 15:48:56,22-10-2024 15:48:57,0.593s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,22-10-2024 15:48:57,22-10-2024 15:48:57,0.007s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,22-10-2024 15:48:57,22-10-2024 15:48:57,0.010s,PASSED
+println(username),,,,22-10-2024 15:48:57,22-10-2024 15:48:57,0.013s,PASSED

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>requestedFOP_DropDown</name>
+   <tag></tag>
+   <elementGuidId>d98d764f-5a6f-421d-9db5-6b2ed008241c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#requestedFop</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='requestedFop']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Requested FOP&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>dabb77bd-eece-46ba-bf58-5d67a9ac16c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-sm input-validation-error</value>
+      <webElementGuid>31071759-1a75-43b3-99ae-8ca8dbb718ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>requestedFop</value>
+      <webElementGuid>ac74677f-a196-44ea-894e-bfe4f2bdf5a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>requestedFop</value>
+      <webElementGuid>c9c6b0a1-2f55-4d88-98d5-f212c54a430c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+      <webElementGuid>53071d92-599e-4f8a-9b1c-e2de01bb669a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>requestedFop-error</value>
+      <webElementGuid>7d8301c9-9896-4717-b6c7-e8a80f54dfa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+CA
+CC
+FT
+</value>
+      <webElementGuid>903914c4-ddff-41ac-8bbf-6945e9816baf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;requestedFop&quot;)</value>
+      <webElementGuid>bf0a191c-5c09-4dc9-9ecd-65fe55cbc0de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='requestedFop']</value>
+      <webElementGuid>9a3bfc1e-bbc5-4b8b-ba25-c1325438f0e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CollapseCR']/div/div/div[2]/div/select</value>
+      <webElementGuid>c210027c-9f5e-46af-85a9-cd86bf41191d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Requested FOP'])[1]/following::select[1]</value>
+      <webElementGuid>b1acbe92-991a-49a9-9ac5-7650388a5163</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Requested Amount'])[1]/following::select[1]</value>
+      <webElementGuid>155b8776-38d1-48ec-b018-9d5333c4d6f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Field required'])[1]/preceding::select[1]</value>
+      <webElementGuid>c2f86cb5-c406-4970-9ad8-0dafdad633dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coupons Requested'])[1]/preceding::select[1]</value>
+      <webElementGuid>2d3bc765-9b99-45c7-9d7e-7df18feb7dbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/select</value>
+      <webElementGuid>06b5384e-3e31-44f9-b2d7-e7395f81cb79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'requestedFop' and @name = 'requestedFop' and (text() = '
+CA
+CC
+FT
+' or . = '
+CA
+CC
+FT
+')]</value>
+      <webElementGuid>df309a74-ae88-4209-a811-a883ea6cf3f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

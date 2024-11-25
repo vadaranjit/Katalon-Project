@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 2_MOZ_9148 Verify Passenger remarks fields should be read only in Audit screen for Request send by Json</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0647874d-2438-475c-8e35-2d5609f4558e</testCaseGuid>
+</TestCaseEntity>

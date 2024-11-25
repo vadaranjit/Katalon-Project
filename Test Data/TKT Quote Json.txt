@@ -1,0 +1,178 @@
+{
+	"processRefundResponse": {
+		"refundDetails": {
+			"pnrProcessingDetails": {
+				"processingStatus": "Y"
+			},
+			"isWaiverApplied": false,
+			"noShowFees": {
+				"isNoShowFeesApplicable": false,
+				"isNoShowFeesApplied": false
+			},
+			"totalRefundFare": {
+				"currencyCode": "AED",
+				"fare": "2970"
+			},
+			"passengersRefundDetails": {
+				"passengerRefundDetails": [
+					{
+						"passengerDetails": {
+							"passengerReference": "1",
+							"personName": {
+								"fullName": "ADTNANCI/QUITZONMR"
+							}
+						},
+						"eticketsRefundDetails": {
+							"eticketRefundDetails": [
+								{
+									"eticketDetails": {
+										"eticketNumber": "1762368172376",
+										"ticketProcessingStatus": true,
+										"conjunctiveTicketRange": "1762368172376",
+										"passengerType": "ADT",
+										"ticketUtilization": "Unutilized",
+										"issuingCountryCode": "AE",
+										"originCountryCode": "AE",
+										"issuanceOffice": "EKDXBRV",
+										"ticketPurchaseLocation": "DXB / EK T3 DHO",
+										"issuingDate": "28FEB2024",
+										"fareCalculationIndicator": "R0",
+										"priceTagInfo": "R0",
+										"couponDetails": {
+											"couponDetails": [
+												{
+													"couponNumber": "1",
+													"associatedTicketNumber": "1762368172376",
+													"couponRefundableIndicator": true,
+													"couponRefundedIndicator": true,
+													"fareBasisCode": "YLOWFAE1/EOL4",
+													"classOfTravel": "Y",
+													"cabinClass": "Y",
+													"fareBrandCode": "F"
+												}
+											]
+										},
+										"fareDetails": {
+											"originalFareDetails": {
+												"totalFare": {
+													"currencyCode": "AED",
+													"fare": "297"
+												},
+												"totalBaseFare": {
+													"currencyCode": "AED",
+													"fare": "266"
+												},
+												"totalTax": {
+													"taxValue": 31,
+													"currencyCode": "AED",
+													"taxComponentDetails": [
+														{
+															"code": "ZR",
+															"currencyCode": "AED",
+															"value": 5
+														},
+														{
+															"code": "AE",
+															"currencyCode": "AED",
+															"value": 75
+														},
+														{
+															"code": "TP",
+															"currencyCode": "AED",
+															"value": 5
+														},
+														{
+															"code": "F6",
+															"currencyCode": "AED",
+															"value": 35
+														},
+														{
+															"code": "YQ",
+															"currencyCode": "AED",
+															"value": 190
+														}
+													]
+												}
+											},
+											"usedFareDetails": {
+												"totalFare": {
+													"currencyCode": "AE",
+													"fare": "100"
+												},
+												"totalBaseFare": {
+													"currencyCode": "AE",
+													"fare": "100"
+												},
+												"totalNonRefundableTax": {
+													"taxValue": 100,
+													"currencyCode": "AE"
+												},
+												"totalTax": {
+													"taxValue": 100,
+													"currencyCode": "AE"
+												}
+											},
+											"penaltyChargesDetails": {
+												"currencyCode": "AED",
+												"penaltyCharge": 0,
+												"totalTax": {
+													"taxValue": 0
+												}
+											},
+											"refundFareDetails": {
+												"totalFare": {
+													"currencyCode": "AED",
+													"fare": "2970"
+												},
+												"totalResidualValue": {
+													"currencyCode": "AED",
+													"fare": "2970"
+												},
+												"totalBaseFare": {
+													"currencyCode": "AED",
+													"fare": "2660"
+												},
+												"totalTax": {
+													"taxValue": 310,
+													"currencyCode": "AED",
+													"taxComponentDetails": [
+														{
+															"code": "AE",
+															"currencyCode": "AED",
+															"value": 75
+														},
+														{
+															"code": "TP",
+															"currencyCode": "AED",
+															"value": 5
+														},
+														{
+															"code": "F6",
+															"currencyCode": "AED",
+															"value": 35
+														},
+														{
+															"code": "YQ",
+															"currencyCode": "AED",
+															"value": 190
+														},
+														{
+															"code": "ZR",
+															"currencyCode": "AED",
+															"value": 5
+														}
+													]
+												}
+											}
+										}
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"uniqueReferenceNumber": "2001762368172376"
+	}
+}

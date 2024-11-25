@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_USDCADMXNESPARSAUDBAMBDTBEFXOFBGNBHD_2314cd</name>
+   <tag></tag>
+   <elementGuidId>9fbb2974-55d3-43a0-8b68-0031533b4678</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='StringFormat_selectedCurrency']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#StringFormat_selectedCurrency</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#StringFormat_selectedCurrency</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>17e5c0d3-2f47-4def-9bc0-d708c3e1a2f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-sm input-validation-error</value>
+      <webElementGuid>81f12cbb-e552-4de9-9366-17cf41da26b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-live-search</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>486d2a45-8248-492e-8687-8af5acd24d0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>StringFormat_selectedCurrency</value>
+      <webElementGuid>39dda307-b32c-4e7e-91fb-cc0a4202be7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>fOPandCC.selectedCurrency</value>
+      <webElementGuid>67f5b677-e221-46cf-9776-16997f0a71f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>RefundMain.changeDisplayCurrency(false,refundMain);</value>
+      <webElementGuid>2416e555-f8e4-4313-a2fb-66df3d35849b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>StringFormat_selectedCurrency-error</value>
+      <webElementGuid>ed410be8-5a3a-4be4-bead-f80b25f033e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>9aaef8f1-6369-476b-88d5-474792afb990</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+USD
+CAD
+MXN
+ESP
+ARS
+AUD
+BAM
+BDT
+BEF
+XOF
+BGN
+BHD
+BMD
+BOB
+BRL
+BSD
+BWP
+ZAR
+BZD
+COP
+XAF
+CHF
+CLP
+CNY
+CRC
+CYP
+CZK
+DKK
+DOP
+ITL
+SKK
+ECS
+EEK
+EGP
+ETB
+FRF
+EUR
+GTQ
+HKD
+HNL
+HRK
+HTG
+HUF
+IDR
+INR
+ISK
+JMD
+JOD
+JPY
+KES
+KRW
+KWD
+KZT
+LKR
+LTL
+LVL
+MAD
+MKD
+MOP
+MRO
+MTL
+MUR
+MWK
+AED
+MYR
+MZN
+XPF
+NGN
+NLG
+NOK
+NPR
+NZD
+OMR
+PGK
+PHP
+PKR
+PLN
+PTE
+PYG
+QAR
+ROL
+RON
+CSD
+RSD
+YUM
+RUB
+SAR
+SEK
+SGD
+SIT
+SYP
+THB
+TND
+TRL
+TRY
+ANG
+AWG
+BBD
+GYD
+TTD
+XCD
+TWD
+TZS
+UAH
+VEB
+VEF
+VND
+YER
+ZMK
+ZWD
+ZWR
+CUP
+ILS
+GHS
+ZMW
+IRR
+RWF
+SDG
+UNK
+</value>
+      <webElementGuid>b765e262-24c1-4035-b9d7-286419864b88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;StringFormat_selectedCurrency&quot;)</value>
+      <webElementGuid>81e2dcaf-a4e1-4192-8ba8-dfd184484421</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='StringFormat_selectedCurrency']</value>
+      <webElementGuid>df7fdf17-cd20-4292-a280-de1d9db9df9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='calculationTableFOP']/tbody/tr/td[4]/div/select</value>
+      <webElementGuid>850c9dc0-9e35-478f-923e-b15a5e1dd374</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[1]/following::select[1]</value>
+      <webElementGuid>8a94748a-20a8-4daa-9192-1d259d9bd49e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refund FOP'])[1]/following::select[2]</value>
+      <webElementGuid>4876df1a-4bb8-4eb4-93a5-393149a2d8e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Field required'])[1]/preceding::select[1]</value>
+      <webElementGuid>87a1b982-a270-45cd-bbab-694964e461f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audit'])[1]/preceding::select[1]</value>
+      <webElementGuid>4a7cd3fe-ee82-44d3-98e9-24d69f678939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/select</value>
+      <webElementGuid>941cbddc-0cc7-442d-8673-0312f2446645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'StringFormat_selectedCurrency' and @name = 'fOPandCC.selectedCurrency' and (text() = '
+USD
+CAD
+MXN
+ESP
+ARS
+AUD
+BAM
+BDT
+BEF
+XOF
+BGN
+BHD
+BMD
+BOB
+BRL
+BSD
+BWP
+ZAR
+BZD
+COP
+XAF
+CHF
+CLP
+CNY
+CRC
+CYP
+CZK
+DKK
+DOP
+ITL
+SKK
+ECS
+EEK
+EGP
+ETB
+FRF
+EUR
+GTQ
+HKD
+HNL
+HRK
+HTG
+HUF
+IDR
+INR
+ISK
+JMD
+JOD
+JPY
+KES
+KRW
+KWD
+KZT
+LKR
+LTL
+LVL
+MAD
+MKD
+MOP
+MRO
+MTL
+MUR
+MWK
+AED
+MYR
+MZN
+XPF
+NGN
+NLG
+NOK
+NPR
+NZD
+OMR
+PGK
+PHP
+PKR
+PLN
+PTE
+PYG
+QAR
+ROL
+RON
+CSD
+RSD
+YUM
+RUB
+SAR
+SEK
+SGD
+SIT
+SYP
+THB
+TND
+TRL
+TRY
+ANG
+AWG
+BBD
+GYD
+TTD
+XCD
+TWD
+TZS
+UAH
+VEB
+VEF
+VND
+YER
+ZMK
+ZWD
+ZWR
+CUP
+ILS
+GHS
+ZMW
+IRR
+RWF
+SDG
+UNK
+' or . = '
+USD
+CAD
+MXN
+ESP
+ARS
+AUD
+BAM
+BDT
+BEF
+XOF
+BGN
+BHD
+BMD
+BOB
+BRL
+BSD
+BWP
+ZAR
+BZD
+COP
+XAF
+CHF
+CLP
+CNY
+CRC
+CYP
+CZK
+DKK
+DOP
+ITL
+SKK
+ECS
+EEK
+EGP
+ETB
+FRF
+EUR
+GTQ
+HKD
+HNL
+HRK
+HTG
+HUF
+IDR
+INR
+ISK
+JMD
+JOD
+JPY
+KES
+KRW
+KWD
+KZT
+LKR
+LTL
+LVL
+MAD
+MKD
+MOP
+MRO
+MTL
+MUR
+MWK
+AED
+MYR
+MZN
+XPF
+NGN
+NLG
+NOK
+NPR
+NZD
+OMR
+PGK
+PHP
+PKR
+PLN
+PTE
+PYG
+QAR
+ROL
+RON
+CSD
+RSD
+YUM
+RUB
+SAR
+SEK
+SGD
+SIT
+SYP
+THB
+TND
+TRL
+TRY
+ANG
+AWG
+BBD
+GYD
+TTD
+XCD
+TWD
+TZS
+UAH
+VEB
+VEF
+VND
+YER
+ZMK
+ZWD
+ZWR
+CUP
+ILS
+GHS
+ZMW
+IRR
+RWF
+SDG
+UNK
+')]</value>
+      <webElementGuid>95f9ea6a-9966-4268-9e7e-58f3dcbabcb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

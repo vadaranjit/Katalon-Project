@@ -1,0 +1,463 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TEST,Chrome 129.0.0.0,,,15-10-2024 16:26:59,15-10-2024 16:41:47,14m - 48.115s,ERROR
+,,,,,,,
+Test Cases/MOZ-13515/New Test Case - Copy,Chrome 129.0.0.0,,,15-10-2024 16:27:00,15-10-2024 16:28:59,1m - 59.345s,PASSED
+"documentNumber = ""6720801174""",Chrome 129.0.0.0,,,15-10-2024 16:27:02,15-10-2024 16:27:02,0.004s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),Chrome 129.0.0.0,,,15-10-2024 16:27:02,15-10-2024 16:27:02,0.551s,PASSED
+mozartLogin.Login.launchBrowser(),Chrome 129.0.0.0,,,15-10-2024 16:27:02,15-10-2024 16:27:42,39.979s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:27:42,15-10-2024 16:27:45,2.559s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refund Capture""))",Chrome 129.0.0.0,,,15-10-2024 16:27:45,15-10-2024 16:27:47,1.667s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes""), ""RF_Both"", false)",Chrome 129.0.0.0,,,15-10-2024 16:27:47,15-10-2024 16:27:47,0.433s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox""), documentNumber)",Chrome 129.0.0.0,,,15-10-2024 16:27:47,15-10-2024 16:27:47,0.281s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button""))",Chrome 129.0.0.0,,,15-10-2024 16:27:47,15-10-2024 16:27:48,0.902s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), ""IN - India"")",Chrome 129.0.0.0,,,15-10-2024 16:27:48,15-10-2024 16:27:48,0.268s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), Keys.chord(ENTER))",Chrome 129.0.0.0,,,15-10-2024 16:27:48,15-10-2024 16:27:49,0.161s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown""), ""CA"", false)",Chrome 129.0.0.0,,,15-10-2024 16:27:49,15-10-2024 16:27:49,0.238s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox""), ""1"")",Chrome 129.0.0.0,,,15-10-2024 16:27:49,15-10-2024 16:27:49,0.161s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox""), uniqueNumber)",Chrome 129.0.0.0,,,15-10-2024 16:27:49,15-10-2024 16:27:49,0.285s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/title_PassengerDetails_Select""), ""Mr"", false)",Chrome 129.0.0.0,,,15-10-2024 16:27:49,15-10-2024 16:27:49,0.250s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerName_PassengerDetails_TextBox""), ""automationTest"")",Chrome 129.0.0.0,,,15-10-2024 16:27:49,15-10-2024 16:27:50,0.277s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/emailAddress_PassengerDetails_TextBox""), ""Katalon@studio.com"")",Chrome 129.0.0.0,,,15-10-2024 16:27:50,15-10-2024 16:27:50,0.308s,PASSED
+"selectOptionByLabel(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/select_Currency""), ""INR"", false)",Chrome 129.0.0.0,,,15-10-2024 16:27:50,15-10-2024 16:27:50,0.231s,PASSED
+"click(findTestObject(""Object Repository/EK_Objects/Page_Mozart - RefundsCapture/send_Button""))",Chrome 129.0.0.0,,,15-10-2024 16:27:50,15-10-2024 16:27:51,0.270s,PASSED
+Thread.sleep(3000),Chrome 129.0.0.0,,,15-10-2024 16:27:51,15-10-2024 16:27:54,3.039s,PASSED
+requestID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:27:54,15-10-2024 16:27:54,0.002s,PASSED
+"for ([i = 0, i <= 2, (i++)])",Chrome 129.0.0.0,,,15-10-2024 16:27:54,15-10-2024 16:27:58,4.350s,PASSED
+"requestID = ""O101000003""",Chrome 129.0.0.0,,,15-10-2024 16:27:58,15-10-2024 16:27:58,0.000s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:27:58,15-10-2024 16:27:58,0.141s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/click_on_refundSearch""))",Chrome 129.0.0.0,,,15-10-2024 16:27:58,15-10-2024 16:27:59,1.287s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsSearch/button_Search by ticket number""))",Chrome 129.0.0.0,,,15-10-2024 16:27:59,15-10-2024 16:28:00,0.194s,PASSED
+"selectOptionByLabel(findTestObject(""EK_Objects/Page_Mozart - RefundsSearch/search_type_selectTag""), ""Search by request Id"", false)",Chrome 129.0.0.0,,,15-10-2024 16:28:00,15-10-2024 16:28:00,0.166s,PASSED
+"setText(findTestObject(""EK_Objects/Page_Mozart - RefundsSearch/input_Value_advancedFilter.idrequest""), requestID)",Chrome 129.0.0.0,,,15-10-2024 16:28:00,15-10-2024 16:28:00,0.329s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsSearch/a_Apply""))",Chrome 129.0.0.0,,,15-10-2024 16:28:00,15-10-2024 16:28:00,0.159s,PASSED
+mi_nsf = select * from bdmozart.mi_nsf where document_number = '$documentNumber',Chrome 129.0.0.0,,,15-10-2024 16:28:00,15-10-2024 16:28:00,0.106s,PASSED
+rowCount = database.DatabaseUtils.getRowCount(mi_nsf),Chrome 129.0.0.0,,,15-10-2024 16:28:00,15-10-2024 16:28:04,3.658s,PASSED
+originalCouponData = new java.util.HashMap(),Chrome 129.0.0.0,,,15-10-2024 16:28:04,15-10-2024 16:28:04,0.000s,PASSED
+NsfFileCouponData = new java.util.HashMap(),Chrome 129.0.0.0,,,15-10-2024 16:28:04,15-10-2024 16:28:04,0.000s,PASSED
+NoShowDataMismatch = false,Chrome 129.0.0.0,,,15-10-2024 16:28:04,15-10-2024 16:28:04,0.000s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",Chrome 129.0.0.0,,,15-10-2024 16:28:04,15-10-2024 16:28:59,54.939s,PASSED
+,,,,,,,
+Test Cases/MOZ-10510/TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid,Chrome 129.0.0.0,,,15-10-2024 16:28:59,15-10-2024 16:29:55,55.890s,PASSED
+"requestIdValue = ""O062400001""",Chrome 129.0.0.0,,,15-10-2024 16:29:00,15-10-2024 16:29:00,0.002s,PASSED
+"sqlQuery = ""select * from bdmozart.md_rfnd_local_settlement where idrequest = 'O062400001'""",Chrome 129.0.0.0,,,15-10-2024 16:29:00,15-10-2024 16:29:00,0.002s,PASSED
+"fop_types_dbValue = database.DatabaseUtils.executeQuery(sqlQuery, ""fop_types"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:29:00,15-10-2024 16:29:03,2.982s,PASSED
+"paid_amount_dbValue = database.DatabaseUtils.executeQuery(sqlQuery, ""balanceamounttotal"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:29:03,15-10-2024 16:29:06,3.157s,PASSED
+value = paid_amount_dbValue,Chrome 129.0.0.0,,,15-10-2024 16:29:06,15-10-2024 16:29:06,0.001s,PASSED
+doubleValue = Double.parseDouble(value),Chrome 129.0.0.0,,,15-10-2024 16:29:06,15-10-2024 16:29:06,0.016s,PASSED
+paid_amount_dbValue_int = doubleValue,Chrome 129.0.0.0,,,15-10-2024 16:29:06,15-10-2024 16:29:06,0.001s,PASSED
+paid_amount_dbValue = paid_amount_dbValue_int.toString(),Chrome 129.0.0.0,,,15-10-2024 16:29:06,15-10-2024 16:29:06,0.002s,PASSED
+out.println(paid_amount_dbValue),Chrome 129.0.0.0,,,15-10-2024 16:29:06,15-10-2024 16:29:06,0.001s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:29:06,15-10-2024 16:29:30,24.360s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:29:30,15-10-2024 16:29:32,1.535s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 129.0.0.0,,,15-10-2024 16:29:32,15-10-2024 16:29:34,1.947s,PASSED
+dynamicTestObject = new com.kms.katalon.core.testobject.TestObject(),Chrome 129.0.0.0,,,15-10-2024 16:29:34,15-10-2024 16:29:34,0.000s,PASSED
+refresh(),Chrome 129.0.0.0,,,15-10-2024 16:29:34,15-10-2024 16:29:35,0.991s,PASSED
+"listOfRequestIds = findWebElements(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/getListOfRequestIdFromGrid""), 10)",Chrome 129.0.0.0,,,15-10-2024 16:29:35,15-10-2024 16:29:36,1.104s,PASSED
+refundAmount_web = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:29:36,15-10-2024 16:29:36,0.000s,PASSED
+refundFopPaidLocally_web = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:29:36,15-10-2024 16:29:36,0.000s,PASSED
+"for ([row = 1, row <= listOfRequestIds.size(), (row++)])",Chrome 129.0.0.0,,,15-10-2024 16:29:36,15-10-2024 16:29:54,17.768s,PASSED
+"verifyMatch(refundFopPaidLocally_web, fop_types_dbValue, true, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:29:54,15-10-2024 16:29:54,0.016s,PASSED
+"verifyMatch(refundAmount_web, paid_amount_dbValue, true, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:29:54,15-10-2024 16:29:54,0.000s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,15-10-2024 16:29:54,15-10-2024 16:29:55,1.082s,PASSED
+,,,,,,,
+Test Cases/MOZ-10510/TC 9_MOZ_11450 Verifies that the internal configuration in the database is correctly set up to define the form of payments visible in the Local Settlements module,Chrome 129.0.0.0,,,15-10-2024 16:29:55,15-10-2024 16:31:00,1m - 5.490s,PASSED
+"Table_md_rfnd_local_settlement = database.DatabaseUtils.checkTableExists(""md_rfnd_local_settlement"")",Chrome 129.0.0.0,,,15-10-2024 16:29:56,15-10-2024 16:30:00,3.997s,PASSED
+"verifyEqual(Table_md_rfnd_local_settlement, true, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:30:00,15-10-2024 16:30:00,0.039s,PASSED
+"Column_paid_locally = database.DatabaseUtils.checkColumnExist(""mc_fop_types"", ""paid_locally"")",Chrome 129.0.0.0,,,15-10-2024 16:30:00,15-10-2024 16:30:03,3.182s,PASSED
+"verifyEqual(Column_paid_locally, true, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:30:03,15-10-2024 16:30:03,0.003s,PASSED
+"rowCount = database.DatabaseUtils.getRowCount(""select * from bdmozart.mc_fop_types where paid_locally = 't'"")",Chrome 129.0.0.0,,,15-10-2024 16:30:03,15-10-2024 16:30:06,2.930s,PASSED
+DataBaseEnableFopList = new java.util.ArrayList(),Chrome 129.0.0.0,,,15-10-2024 16:30:06,15-10-2024 16:30:06,0.003s,PASSED
+FilterFopList = new java.util.ArrayList(),Chrome 129.0.0.0,,,15-10-2024 16:30:06,15-10-2024 16:30:06,0.001s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",Chrome 129.0.0.0,,,15-10-2024 16:30:06,15-10-2024 16:30:22,15.631s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:30:22,15-10-2024 16:30:47,24.811s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:30:47,15-10-2024 16:30:51,4.718s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 129.0.0.0,,,15-10-2024 16:30:51,15-10-2024 16:30:54,3.047s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_button""))",Chrome 129.0.0.0,,,15-10-2024 16:30:54,15-10-2024 16:30:57,2.272s,PASSED
+"click(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/textbox_filter_r2_c3""))",Chrome 129.0.0.0,,,15-10-2024 16:30:57,15-10-2024 16:30:57,0.433s,PASSED
+"FopValues = findWebElements(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_RefundFopPaidLocally_values""), 10)",Chrome 129.0.0.0,,,15-10-2024 16:30:57,15-10-2024 16:30:58,0.478s,PASSED
+dynamicTestObject = new com.kms.katalon.core.testobject.TestObject(),Chrome 129.0.0.0,,,15-10-2024 16:30:58,15-10-2024 16:30:58,0.000s,PASSED
+println(FopValues.size()),Chrome 129.0.0.0,,,15-10-2024 16:30:58,15-10-2024 16:30:58,0.015s,PASSED
+"for ([row = 1, row <= FopValues.size(), (row++)])",Chrome 129.0.0.0,,,15-10-2024 16:30:58,15-10-2024 16:30:59,1.523s,PASSED
+"verifyMatch(size().toString(), size().toString(), true, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.000s,PASSED
+uniqueFopValues = new java.util.HashSet(),Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.047s,PASSED
+try,Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.009s,PASSED
+webFopValues = new java.util.ArrayList(uniqueFopValues),Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.007s,PASSED
+Collections.sort(webFopValues),Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.016s,PASSED
+Collections.sort(DataBaseEnableFopList),Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.000s,PASSED
+"for ([i = 0, i < DataBaseEnableFopList.size(), (i++)])",Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.055s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:30:59,0.087s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,15-10-2024 16:30:59,15-10-2024 16:31:00,1.082s,PASSED
+,,,,,,,
+"Test Cases/MOZ-10510/TC 8_MOZ_11449 Verify the Availability of Group By,My Filters, and Download Options in the Local Settlements Module",Chrome 129.0.0.0,,,15-10-2024 16:31:00,15-10-2024 16:31:39,39.108s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:31:01,15-10-2024 16:31:33,32.067s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:31:33,15-10-2024 16:31:36,3.272s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 129.0.0.0,,,15-10-2024 16:31:36,15-10-2024 16:31:38,1.667s,PASSED
+"verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_button""), 5, STOP_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:31:38,15-10-2024 16:31:39,1.316s,PASSED
+"verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/groupBy_button""), 5, STOP_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:31:39,15-10-2024 16:31:39,0.265s,PASSED
+,,,,,,,
+Test Cases/MOZ-12692/TC_2_MOZ-13228_Verify that the system correctly stores TRIPS-Quote data in the corresponding database tables,Chrome 129.0.0.0,,,15-10-2024 16:31:39,15-10-2024 16:31:53,13.790s,PASSED
+processJson = new utilityClass.JsonPaths(),Chrome 129.0.0.0,,,15-10-2024 16:31:40,15-10-2024 16:31:40,0.027s,PASSED
+"filePath = ""Test Data/Embedded TKT Quote.txt""",Chrome 129.0.0.0,,,15-10-2024 16:31:40,15-10-2024 16:31:40,0.001s,PASSED
+QuoteString = processJson.JsonStringFormatter(filePath),Chrome 129.0.0.0,,,15-10-2024 16:31:40,15-10-2024 16:31:40,0.052s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:31:40,15-10-2024 16:31:45,5.333s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ-12692_API/MOZ-12692_EK_QUOTE_TRIPS""))",Chrome 129.0.0.0,,,15-10-2024 16:31:45,15-10-2024 16:31:47,2.091s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:31:47,15-10-2024 16:31:47,0.003s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 129.0.0.0,,,15-10-2024 16:31:47,15-10-2024 16:31:48,0.126s,PASSED
+"queryTemplate = ""select * from bdmozart.%s where %s = '%s'""",Chrome 129.0.0.0,,,15-10-2024 16:31:48,15-10-2024 16:31:48,0.002s,PASSED
+mozartRequestCondition = idrequest = '$mozartRequestId',Chrome 129.0.0.0,,,15-10-2024 16:31:48,15-10-2024 16:31:48,0.002s,PASSED
+"mi_refund_ek_quote = String.format(queryTemplate, ""mi_refund_ek_quote"", ""idrequest"", mozartRequestId)",Chrome 129.0.0.0,,,15-10-2024 16:31:48,15-10-2024 16:31:48,0.004s,PASSED
+"idQuote = database.DatabaseUtils.executeQuery(mi_refund_ek_quote, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:31:48,15-10-2024 16:31:51,2.933s,PASSED
+"mi_refund_ek_quote_trips_detail = String.format(queryTemplate, ""mi_refund_ek_quote_trips_detail"", ""idquote"", idQuote)",Chrome 129.0.0.0,,,15-10-2024 16:31:51,15-10-2024 16:31:51,0.002s,PASSED
+"idtripsdetail = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_trips_detail, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:31:51,15-10-2024 16:31:53,2.746s,PASSED
+"mi_refund_ek_quote_trips_ticket_range = String.format(queryTemplate, ""mi_refund_ek_quote_trips_ticket_range"", ""idtripsdetail"", idtripsdetail)",Chrome 129.0.0.0,,,15-10-2024 16:31:53,15-10-2024 16:31:53,0.001s,PASSED
+"mi_refund_ek_quote_trips_tax_refund = String.format(queryTemplate, ""mi_refund_ek_quote_trips_tax_refund"", ""idtripsdetail"", idtripsdetail)",Chrome 129.0.0.0,,,15-10-2024 16:31:53,15-10-2024 16:31:53,0.001s,PASSED
+"mi_refund_ek_quote_trips_form_refund_payment = String.format(queryTemplate, ""mi_refund_ek_quote_trips_form_refund_payment"", ""idtripsdetail"", idtripsdetail)",Chrome 129.0.0.0,,,15-10-2024 16:31:53,15-10-2024 16:31:53,0.001s,PASSED
+"mi_refund_ek_quote_trips_loyalty_fare = String.format(queryTemplate, ""mi_refund_ek_quote_trips_loyalty_fare"", ""idtripsdetail"", idtripsdetail)",Chrome 129.0.0.0,,,15-10-2024 16:31:53,15-10-2024 16:31:53,0.001s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 5_MOZ_11533 Verify linking after Refund Capture,Chrome 129.0.0.0,,,15-10-2024 16:31:53,15-10-2024 16:33:06,1m - 12.317s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:31:54,15-10-2024 16:32:24,30.839s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),Chrome 129.0.0.0,,,15-10-2024 16:32:24,15-10-2024 16:32:24,0.006s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:32:24,15-10-2024 16:32:25,0.537s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refund Capture""))",Chrome 129.0.0.0,,,15-10-2024 16:32:25,15-10-2024 16:32:35,9.815s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes""), ""RF_Both"", false)",Chrome 129.0.0.0,,,15-10-2024 16:32:35,15-10-2024 16:32:36,1.125s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox""), ""6747279623"")",Chrome 129.0.0.0,,,15-10-2024 16:32:36,15-10-2024 16:32:37,0.754s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button""))",Chrome 129.0.0.0,,,15-10-2024 16:32:37,15-10-2024 16:32:37,0.605s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), ""IN - India"")",Chrome 129.0.0.0,,,15-10-2024 16:32:37,15-10-2024 16:32:38,0.585s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), Keys.chord(ENTER))",Chrome 129.0.0.0,,,15-10-2024 16:32:38,15-10-2024 16:32:38,0.479s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown""), ""CA"", false)",Chrome 129.0.0.0,,,15-10-2024 16:32:38,15-10-2024 16:32:40,1.470s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox""), ""1"")",Chrome 129.0.0.0,,,15-10-2024 16:32:40,15-10-2024 16:32:40,0.574s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox""), uniqueNumber)",Chrome 129.0.0.0,,,15-10-2024 16:32:40,15-10-2024 16:32:41,0.668s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/title_PassengerDetails_Select""), ""Mr"", false)",Chrome 129.0.0.0,,,15-10-2024 16:32:41,15-10-2024 16:32:42,0.730s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerName_PassengerDetails_TextBox""), ""automationTest"")",Chrome 129.0.0.0,,,15-10-2024 16:32:42,15-10-2024 16:32:43,0.666s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/emailAddress_PassengerDetails_TextBox""), ""Katalon@studio.com"")",Chrome 129.0.0.0,,,15-10-2024 16:32:43,15-10-2024 16:32:43,0.684s,PASSED
+"selectOptionByLabel(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/select_Currency""), ""INR"", false)",Chrome 129.0.0.0,,,15-10-2024 16:32:43,15-10-2024 16:32:44,0.750s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/send_Button""))",Chrome 129.0.0.0,,,15-10-2024 16:32:44,15-10-2024 16:32:45,0.707s,PASSED
+requestId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:32:45,15-10-2024 16:32:45,0.002s,PASSED
+"for ([i = 0, i <= 5, (i++)])",Chrome 129.0.0.0,,,15-10-2024 16:32:45,15-10-2024 16:32:59,14.078s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:32:59,15-10-2024 16:32:59,0.201s,PASSED
+"pnrWaiverResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_pnr_waiver_request""))",Chrome 129.0.0.0,,,15-10-2024 16:32:59,15-10-2024 16:33:00,0.767s,PASSED
+"verifyResponseStatusCode(pnrWaiverResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:33:00,15-10-2024 16:33:00,0.000s,PASSED
+"mi_pnr_waiver_remarks = ""select * from bdmozart.mi_pnr_waiver_remarks where remarkstext = '"" + uniqueNumber + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:33:00,15-10-2024 16:33:00,0.000s,PASSED
+"waiverId = database.DatabaseUtils.executeQuery(mi_pnr_waiver_remarks, ""waiver_id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:33:00,15-10-2024 16:33:03,2.949s,PASSED
+"md_rfnd_pnr_waivers = ""select * from bdmozart.md_rfnd_pnr_waivers where idrequest = '"" + requestId + ""'"" + "" order by id desc"" + "" """,Chrome 129.0.0.0,,,15-10-2024 16:33:03,15-10-2024 16:33:03,0.000s,PASSED
+"waiverIdLinkedToRequestId = database.DatabaseUtils.executeQuery(md_rfnd_pnr_waivers, ""idmipnrwaiver"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:33:03,15-10-2024 16:33:06,2.926s,PASSED
+"verifyMatch(waiverIdLinkedToRequestId, waiverId, false)",Chrome 129.0.0.0,,,15-10-2024 16:33:06,15-10-2024 16:33:06,0.016s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 4_MOZ_11533 Verify linking after Json request,Chrome 129.0.0.0,,,15-10-2024 16:33:06,15-10-2024 16:33:17,10.972s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),Chrome 129.0.0.0,,,15-10-2024 16:33:06,15-10-2024 16:33:06,0.000s,PASSED
+demoPackage.UtilityDemo.requestNumber(),Chrome 129.0.0.0,,,15-10-2024 16:33:06,15-10-2024 16:33:06,0.000s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:33:06,15-10-2024 16:33:06,0.234s,PASSED
+"pnrWaiverResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_pnr_waiver_request""))",Chrome 129.0.0.0,,,15-10-2024 16:33:06,15-10-2024 16:33:07,0.853s,PASSED
+"verifyResponseStatusCode(pnrWaiverResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:33:07,15-10-2024 16:33:07,0.005s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_full_refund-json""))",Chrome 129.0.0.0,,,15-10-2024 16:33:07,15-10-2024 16:33:09,2.011s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:33:09,15-10-2024 16:33:09,0.015s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 129.0.0.0,,,15-10-2024 16:33:09,15-10-2024 16:33:09,0.079s,PASSED
+"println(""The mozart_request_id is: "" + mozartRequestId)",Chrome 129.0.0.0,,,15-10-2024 16:33:09,15-10-2024 16:33:09,0.000s,PASSED
+"mi_pnr_waiver_remarks = ""select * from bdmozart.mi_pnr_waiver_remarks where remarkstext = '"" + uniqueNumber + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:33:09,15-10-2024 16:33:09,0.000s,PASSED
+"waiverId = database.DatabaseUtils.executeQuery(mi_pnr_waiver_remarks, ""waiver_id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:33:09,15-10-2024 16:33:13,4.045s,PASSED
+"println(""The Waiver_id is: "" + waiverId)",Chrome 129.0.0.0,,,15-10-2024 16:33:13,15-10-2024 16:33:13,0.000s,PASSED
+"md_rfnd_pnr_waivers = ""select * from bdmozart.md_rfnd_pnr_waivers where idrequest = '"" + mozartRequestId + ""'"" + "" order by id desc"" + "" """,Chrome 129.0.0.0,,,15-10-2024 16:33:13,15-10-2024 16:33:13,0.000s,PASSED
+"waiverIdLinkedToRequestId = database.DatabaseUtils.executeQuery(md_rfnd_pnr_waivers, ""idmipnrwaiver"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:33:13,15-10-2024 16:33:17,3.431s,PASSED
+"verifyMatch(waiverIdLinkedToRequestId, waiverId, false)",Chrome 129.0.0.0,,,15-10-2024 16:33:17,15-10-2024 16:33:17,0.000s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines,Chrome 129.0.0.0,,,15-10-2024 16:33:17,15-10-2024 16:33:21,4.205s,PASSED
+"PnrWaiverController_check = database.DBConnection.executeQuerys(""mozart_emirates"", ""select * from bdmozart.mc_endpoints_exposed"", ""enabled"", 7)",Chrome 129.0.0.0,,,15-10-2024 16:33:17,15-10-2024 16:33:20,3.178s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:33:20,15-10-2024 16:33:20,0.253s,PASSED
+"response = sendRequest(findTestObject(""API/MOZ_11020_API/pnr_waiver_request""))",Chrome 129.0.0.0,,,15-10-2024 16:33:20,15-10-2024 16:33:21,0.452s,PASSED
+"if (PnrWaiverController_check == ""t"")",Chrome 129.0.0.0,,,15-10-2024 16:33:21,15-10-2024 16:33:21,0.005s,PASSED
+,,,,,,,
+Test Cases/MOZ-9700/TC 2_MOZ-9885 Verify that when the email address is not filled than user can still save it as a draft,Chrome 129.0.0.0,,,15-10-2024 16:33:21,15-10-2024 16:34:07,46.127s,FAILED
+mozartLogin.Login.launchBrowser(),Chrome 129.0.0.0,,,15-10-2024 16:33:21,15-10-2024 16:33:57,35.748s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),Chrome 129.0.0.0,,,15-10-2024 16:33:57,15-10-2024 16:33:57,0.003s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:33:57,15-10-2024 16:33:57,0.132s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refund Capture""))",Chrome 129.0.0.0,,,15-10-2024 16:33:57,15-10-2024 16:34:01,3.846s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes""), ""RF_Both"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:01,15-10-2024 16:34:01,0.258s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox""), ""6747279623"")",Chrome 129.0.0.0,,,15-10-2024 16:34:01,15-10-2024 16:34:01,0.180s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button""))",Chrome 129.0.0.0,,,15-10-2024 16:34:01,15-10-2024 16:34:02,1.014s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), ""IN - India"")",Chrome 129.0.0.0,,,15-10-2024 16:34:02,15-10-2024 16:34:03,0.229s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), Keys.chord(ENTER))",Chrome 129.0.0.0,,,15-10-2024 16:34:03,15-10-2024 16:34:03,0.118s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown""), ""CA"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:03,15-10-2024 16:34:03,0.189s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox""), ""1"")",Chrome 129.0.0.0,,,15-10-2024 16:34:03,15-10-2024 16:34:03,0.150s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox""), uniqueNumber)",Chrome 129.0.0.0,,,15-10-2024 16:34:03,15-10-2024 16:34:03,0.175s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/title_PassengerDetails_Select""), ""Mr"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:03,15-10-2024 16:34:04,0.222s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerName_PassengerDetails_TextBox""), ""automationTest"")",Chrome 129.0.0.0,,,15-10-2024 16:34:04,15-10-2024 16:34:04,0.223s,PASSED
+"selectOptionByLabel(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/select_Currency""), ""INR"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:04,15-10-2024 16:34:04,0.170s,PASSED
+"click(findTestObject(""Demo/RecordingEK/Page_Mozart - RefundsCapture/Save Button""))",Chrome 129.0.0.0,,,15-10-2024 16:34:04,15-10-2024 16:34:04,0.254s,PASSED
+Thread.sleep(1000),Chrome 129.0.0.0,,,15-10-2024 16:34:04,15-10-2024 16:34:05,1.001s,PASSED
+"Draft_save_msg = getText(findTestObject(""Demo/RecordingEK/Page_Mozart - RefundsCapture/Draft Save Success message""))",Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.061s,PASSED
+println(Draft_save_msg),Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.002s,PASSED
+"startIndex = Draft_save_msg.indexOf(""is "") + 3",Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.003s,PASSED
+numberWithDot = substring(startIndex).trim(),Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.002s,PASSED
+"draftMsgNumber = numberWithDot.replace(""."", """")",Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.002s,PASSED
+println(draftMsgNumber),Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.001s,PASSED
+"newSaveMsg = Draft_save_msg.substring(0, 32)",Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.002s,PASSED
+println(newSaveMsg),Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.001s,PASSED
+"verifyMatch(newSaveMsg, ""Draft saved. The new ID Draft is"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.003s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/click_on_ThreeDots""))",Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:05,0.119s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/load_Draft_Button""))",Chrome 129.0.0.0,,,15-10-2024 16:34:05,15-10-2024 16:34:06,0.148s,PASSED
+"draftNumber = getText(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/DraftTableR1C2""))",Chrome 129.0.0.0,,,15-10-2024 16:34:06,15-10-2024 16:34:07,1.303s,PASSED
+println(draftNumber),Chrome 129.0.0.0,,,15-10-2024 16:34:07,15-10-2024 16:34:07,0.002s,PASSED
+"verifyMatch(draftNumber, draftMsgNumber, false)",Chrome 129.0.0.0,,,15-10-2024 16:34:07,15-10-2024 16:34:07,0.049s,FAILED
+,,,,,,,
+Test Cases/MOZ-9700/TC 1_MOZ_9876 Verify the email address to be marked as obligatory field,Chrome 129.0.0.0,,,15-10-2024 16:34:07,15-10-2024 16:34:51,44.159s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:34:07,15-10-2024 16:34:35,27.998s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),Chrome 129.0.0.0,,,15-10-2024 16:34:35,15-10-2024 16:34:35,0.003s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:34:35,15-10-2024 16:34:40,4.771s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refund Capture""))",Chrome 129.0.0.0,,,15-10-2024 16:34:40,15-10-2024 16:34:43,2.800s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes""), ""RF_Both"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:43,15-10-2024 16:34:44,1.193s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox""), ""6747279623"")",Chrome 129.0.0.0,,,15-10-2024 16:34:44,15-10-2024 16:34:45,0.668s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button""))",Chrome 129.0.0.0,,,15-10-2024 16:34:45,15-10-2024 16:34:45,0.581s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), ""IN - India"")",Chrome 129.0.0.0,,,15-10-2024 16:34:45,15-10-2024 16:34:46,0.581s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), Keys.chord(ENTER))",Chrome 129.0.0.0,,,15-10-2024 16:34:46,15-10-2024 16:34:47,0.528s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown""), ""CA"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:47,15-10-2024 16:34:48,1.453s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox""), ""1"")",Chrome 129.0.0.0,,,15-10-2024 16:34:48,15-10-2024 16:34:49,0.555s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox""), uniqueNumber)",Chrome 129.0.0.0,,,15-10-2024 16:34:49,15-10-2024 16:34:49,0.567s,PASSED
+"selectOptionByLabel(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/select_Currency""), ""INR"", false)",Chrome 129.0.0.0,,,15-10-2024 16:34:49,15-10-2024 16:34:50,0.801s,PASSED
+"emailAddressEmpty = getText(findTestObject(""Object Repository/EK_Objects/Page_Mozart - RefundsCapture/EmailFieldObligatory""))",Chrome 129.0.0.0,,,15-10-2024 16:34:50,15-10-2024 16:34:50,0.506s,PASSED
+"verifyMatch(emailAddressEmpty, ""Field required"", false, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:34:50,15-10-2024 16:34:50,0.004s,PASSED
+"passangerName = getText(findTestObject(""Object Repository/EK_Objects/Page_Mozart - RefundsCapture/passengerName_FieldRequired""))",Chrome 129.0.0.0,,,15-10-2024 16:34:50,15-10-2024 16:34:51,0.286s,PASSED
+"verifyMatch(passangerName, ""Field required"", false, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:34:51,15-10-2024 16:34:51,0.003s,PASSED
+"Title = getText(findTestObject(""Object Repository/EK_Objects/Page_Mozart - RefundsCapture/passengerTitle_FieldRequired""))",Chrome 129.0.0.0,,,15-10-2024 16:34:51,15-10-2024 16:34:51,0.288s,PASSED
+"verifyMatch(Title, ""Field required"", false, CONTINUE_ON_FAILURE)",Chrome 129.0.0.0,,,15-10-2024 16:34:51,15-10-2024 16:34:51,0.003s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response,Chrome 129.0.0.0,,,15-10-2024 16:34:51,15-10-2024 16:34:52,1.106s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:34:51,15-10-2024 16:34:52,0.274s,PASSED
+"response = sendRequest(findTestObject(""API/MOZ_11020_API/pnr_waiver_request""))",Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.483s,PASSED
+responseBody = response.getResponseText(),Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.001s,PASSED
+println(JsonOutput.prettyPrint(responseBody)),Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.076s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.004s,PASSED
+slurper = new groovy.json.JsonSlurper(),Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.001s,PASSED
+jsonResponse = slurper.parseText(response.getResponseText()),Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.002s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(waiver_effective_date != null, ""waiver_effective_date is missing in the response"")",Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.022s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(waiver_expiry_date != null, ""waiver_expiry_date is missing in the response"")",Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.003s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:52,0.001s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR,Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:35:09,17.201s,PASSED
+"mi_pnr_waiver = database.DatabaseUtils.checkTableExists(""mi_pnr_waiver"")",Chrome 129.0.0.0,,,15-10-2024 16:34:52,15-10-2024 16:34:56,3.584s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver, ""The mi_pnr_waiver table should be available in the database."")",Chrome 129.0.0.0,,,15-10-2024 16:34:56,15-10-2024 16:34:56,0.002s,PASSED
+"mi_pnr_waiver_remarks = database.DatabaseUtils.checkTableExists(""mi_pnr_waiver_remarks"")",Chrome 129.0.0.0,,,15-10-2024 16:34:56,15-10-2024 16:35:00,3.532s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver_remarks, ""The mi_pnr_waiver_remarks table should be available in the database."")",Chrome 129.0.0.0,,,15-10-2024 16:35:00,15-10-2024 16:35:00,0.002s,PASSED
+"md_rfnd_pnr_waivers = database.DatabaseUtils.checkTableExists(""md_rfnd_pnr_waivers"")",Chrome 129.0.0.0,,,15-10-2024 16:35:00,15-10-2024 16:35:03,3.733s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(md_rfnd_pnr_waivers, ""The md_rfnd_pnr_waivers table should be available in the database."")",Chrome 129.0.0.0,,,15-10-2024 16:35:03,15-10-2024 16:35:03,0.002s,PASSED
+"controller_name_column_row_value = database.DBConnection.SQL(""select * from bdmozart.mc_endpoints_exposed where controller_name = 'PnrWaiverController'"", ""controller_name"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:35:03,15-10-2024 16:35:06,2.905s,PASSED
+"utilityClass.CustomSoftAssert.assertEquals(controller_name_column_row_value, ""PnrWaiverController"", ""Expected Column value is = PnrWaiverController"")",Chrome 129.0.0.0,,,15-10-2024 16:35:06,15-10-2024 16:35:06,0.006s,PASSED
+"description_column_row_value = database.DBConnection.SQL(""select * from bdmozart.mc_file_type where code = 'MWF'"", ""description"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:35:06,15-10-2024 16:35:09,3.137s,PASSED
+"utilityClass.CustomSoftAssert.assertEquals(description_column_row_value, ""Pnr Waiver File"", ""Expected Column value is = Pnr Waiver File"")",Chrome 129.0.0.0,,,15-10-2024 16:35:09,15-10-2024 16:35:09,0.002s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 129.0.0.0,,,15-10-2024 16:35:09,15-10-2024 16:35:09,0.001s,PASSED
+,,,,,,,
+Test Cases/MOZ-12692/TC_1_MOZ-13227_Verify that the system correctly identifies a TRIPS-Quote embedded in a refund request,Chrome 129.0.0.0,,,15-10-2024 16:35:09,15-10-2024 16:35:20,10.965s,PASSED
+processJson = new utilityClass.JsonPaths(),Chrome 129.0.0.0,,,15-10-2024 16:35:10,15-10-2024 16:35:10,0.002s,PASSED
+"filePath = ""Test Data/Embedded TKT Quote.txt""",Chrome 129.0.0.0,,,15-10-2024 16:35:10,15-10-2024 16:35:10,0.001s,PASSED
+QuoteString = processJson.JsonStringFormatter(filePath),Chrome 129.0.0.0,,,15-10-2024 16:35:10,15-10-2024 16:35:10,0.003s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:35:10,15-10-2024 16:35:10,0.362s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ-12692_API/MOZ-12692_EK_QUOTE_TRIPS""))",Chrome 129.0.0.0,,,15-10-2024 16:35:10,15-10-2024 16:35:14,4.384s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:35:14,15-10-2024 16:35:14,0.003s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 129.0.0.0,,,15-10-2024 16:35:14,15-10-2024 16:35:14,0.075s,PASSED
+"queryTemplate = ""select * from bdmozart.%s where %s = '%s'""",Chrome 129.0.0.0,,,15-10-2024 16:35:14,15-10-2024 16:35:14,0.002s,PASSED
+mozartRequestCondition = idrequest = '$mozartRequestId',Chrome 129.0.0.0,,,15-10-2024 16:35:14,15-10-2024 16:35:14,0.001s,PASSED
+"mi_refund_ek_quote = String.format(queryTemplate, ""mi_refund_ek_quote"", ""idrequest"", mozartRequestId)",Chrome 129.0.0.0,,,15-10-2024 16:35:14,15-10-2024 16:35:14,0.001s,PASSED
+"idQuote = database.DatabaseUtils.executeQuery(mi_refund_ek_quote, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:35:14,15-10-2024 16:35:17,2.939s,PASSED
+"quoteType = database.DatabaseUtils.executeQuery(mi_refund_ek_quote, ""quote_type"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:35:17,15-10-2024 16:35:20,2.924s,PASSED
+"verifyMatch(quoteType, ""TKT-Quote"", false)",Chrome 129.0.0.0,,,15-10-2024 16:35:20,15-10-2024 16:35:20,0.003s,PASSED
+,,,,,,,
+Test Cases/MOZ-10510/TC 7_MOZ_11448 Verify Grid Display in the Local Settlements Module,Chrome 129.0.0.0,,,15-10-2024 16:35:20,15-10-2024 16:36:44,1m - 23.816s,PASSED
+mozartLogin.Login.launchBrowser(),Chrome 129.0.0.0,,,15-10-2024 16:35:21,15-10-2024 16:35:55,33.932s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:35:55,15-10-2024 16:36:36,41.672s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 129.0.0.0,,,15-10-2024 16:36:36,15-10-2024 16:36:40,4.094s,PASSED
+"listOfHeaderColumns = findWebElements(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filterTable_headers""), 10)",Chrome 129.0.0.0,,,15-10-2024 16:36:40,15-10-2024 16:36:41,0.399s,PASSED
+println(listOfHeaderColumns.size()),Chrome 129.0.0.0,,,15-10-2024 16:36:41,15-10-2024 16:36:41,0.001s,PASSED
+"elements = [""Request Id"", ""Processing Date (yyyy-mm-dd)"", ""Ticket Number"", ""Request Number"", ""Passenger Name"", ""Country"", ""Agent code"", ""Refund Amount"", ""Currency"", ""Refund FOP Paid Locally"", ""Reason""]",Chrome 129.0.0.0,,,15-10-2024 16:36:41,15-10-2024 16:36:41,0.001s,PASSED
+"for ([i = 1, i < listOfHeaderColumns.size(), (i++)])",Chrome 129.0.0.0,,,15-10-2024 16:36:41,15-10-2024 16:36:44,3.416s,PASSED
+,,,,,,,
+Test Cases/MOZ-12450/TC_3_MOZ-12910_Verify that an invalid Quote and error details are logged in the database,Chrome 129.0.0.0,,,15-10-2024 16:36:44,15-10-2024 16:36:53,8.390s,PASSED
+"filePath = ""Test Data/Embbeded TKT Quote - Error in Quote""",Chrome 129.0.0.0,,,15-10-2024 16:36:44,15-10-2024 16:36:44,0.001s,PASSED
+QuoteString = utilityClass.JsonPaths.JsonStringFormatter(filePath),Chrome 129.0.0.0,,,15-10-2024 16:36:44,15-10-2024 16:36:44,0.006s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:36:44,15-10-2024 16:36:45,0.388s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ-12450_API/MOZ-12909_Full_Refund_Embedded TKT""))",Chrome 129.0.0.0,,,15-10-2024 16:36:45,15-10-2024 16:36:50,4.978s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:36:50,15-10-2024 16:36:50,0.004s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 129.0.0.0,,,15-10-2024 16:36:50,15-10-2024 16:36:50,0.076s,PASSED
+"queryTemplate = ""select * from bdmozart.%s where %s = '%s'""",Chrome 129.0.0.0,,,15-10-2024 16:36:50,15-10-2024 16:36:50,0.001s,PASSED
+mozartRequestCondition = idrequest = '$mozartRequestId',Chrome 129.0.0.0,,,15-10-2024 16:36:50,15-10-2024 16:36:50,0.001s,PASSED
+println(mozartRequestCondition),Chrome 129.0.0.0,,,15-10-2024 16:36:50,15-10-2024 16:36:50,0.002s,PASSED
+"mi_refund_ek_quote = String.format(queryTemplate, ""mi_refund_ek_quote"", ""idrequest"", mozartRequestId)",Chrome 129.0.0.0,,,15-10-2024 16:36:50,15-10-2024 16:36:50,0.001s,PASSED
+"idQuote = database.DatabaseUtils.executeQueryDemo(mi_refund_ek_quote, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:36:50,15-10-2024 16:36:53,2.667s,PASSED
+println(idQuote),Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:36:53,0.002s,PASSED
+"verifyMatch(idQuote, ""No current row"", false)",Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:36:53,0.003s,PASSED
+,,,,,,,
+"Test Cases/MOZ-12450/TC 2_MOZ-12910_Verify that store the data of embeeded TKT-Quotes, including error details in case the processing fails",Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:37:30,37.892s,PASSED
+processJson = new utilityClass.JsonPaths(),Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:36:53,0.000s,PASSED
+"filePath = ""Test Data/Embedded TKT Quote.txt""",Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:36:53,0.002s,PASSED
+QuoteString = processJson.JsonStringFormatter(filePath),Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:36:53,0.002s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:36:53,0.501s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ-12450_API/MOZ-12909_Full_Refund_Embedded TKT""))",Chrome 129.0.0.0,,,15-10-2024 16:36:53,15-10-2024 16:36:57,3.791s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:36:57,15-10-2024 16:36:57,0.004s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 129.0.0.0,,,15-10-2024 16:36:57,15-10-2024 16:36:57,0.068s,PASSED
+"queryTemplate = ""select * from bdmozart.%s where %s = '%s'""",Chrome 129.0.0.0,,,15-10-2024 16:36:57,15-10-2024 16:36:57,0.001s,PASSED
+mozartRequestCondition = idrequest = '$mozartRequestId',Chrome 129.0.0.0,,,15-10-2024 16:36:57,15-10-2024 16:36:57,0.001s,PASSED
+"mi_refund_ek_quote = String.format(queryTemplate, ""mi_refund_ek_quote"", ""idrequest"", mozartRequestId)",Chrome 129.0.0.0,,,15-10-2024 16:36:57,15-10-2024 16:36:57,0.001s,PASSED
+"idQuote = database.DatabaseUtils.executeQuery(mi_refund_ek_quote, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:36:57,15-10-2024 16:37:00,2.969s,PASSED
+"mi_refund_ek_quote_passenger = String.format(queryTemplate, ""mi_refund_ek_quote_passenger"", ""idquote"", idQuote)",Chrome 129.0.0.0,,,15-10-2024 16:37:00,15-10-2024 16:37:00,0.002s,PASSED
+"idpassenger = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_passenger, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:37:00,15-10-2024 16:37:03,2.942s,PASSED
+"mi_refund_ek_quote_tkt_details = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_details"", ""idpassenger"", idpassenger)",Chrome 129.0.0.0,,,15-10-2024 16:37:03,15-10-2024 16:37:03,0.002s,PASSED
+"idtktdetails = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_tkt_details, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:37:03,15-10-2024 16:37:06,2.907s,PASSED
+"mi_refund_ek_quote_tkt_coupon_details = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_coupon_details"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"mi_refund_ek_quote_tkt_original_fare = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_original_fare"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"mi_refund_ek_quote_tkt_penalty_charges = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_penalty_charges"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.000s,PASSED
+"mi_refund_ek_quote_tkt_refund_fare = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_refund_fare"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"mi_refund_ek_quote_tkt_used_fare = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_used_fare"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+tables = new java.util.HashMap(),Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote"", mi_refund_ek_quote)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_passenger"", mi_refund_ek_quote_passenger)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_details"", mi_refund_ek_quote_tkt_details)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_coupon_details"", mi_refund_ek_quote_tkt_coupon_details)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_original_fare"", mi_refund_ek_quote_tkt_original_fare)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_penalty_charges"", mi_refund_ek_quote_tkt_penalty_charges)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_refund_fare"", mi_refund_ek_quote_tkt_refund_fare)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_used_fare"", mi_refund_ek_quote_tkt_used_fare)",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:06,0.001s,PASSED
+"for (Map$Entry<String, String> entry : tables.entrySet())",Chrome 129.0.0.0,,,15-10-2024 16:37:06,15-10-2024 16:37:30,24.264s,PASSED
+,,,,,,,
+"Test Cases/MOZ-12450/TC 1_MOZ-12909_Verify that embedded TKT-Quote processed correctly, and the quote data is stored in the database tables",Chrome 129.0.0.0,,,15-10-2024 16:37:30,15-10-2024 16:38:04,33.143s,PASSED
+processJson = new utilityClass.JsonPaths(),Chrome 129.0.0.0,,,15-10-2024 16:37:31,15-10-2024 16:37:31,0.001s,PASSED
+"filePath = ""Test Data/EK_QUOTE_TRIPS""",Chrome 129.0.0.0,,,15-10-2024 16:37:31,15-10-2024 16:37:31,0.001s,PASSED
+QuoteString = processJson.JsonStringFormatter(filePath),Chrome 129.0.0.0,,,15-10-2024 16:37:31,15-10-2024 16:37:31,0.002s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:37:31,15-10-2024 16:37:31,0.362s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ-12450_API/MOZ-12909_Full_Refund_Embedded TKT""))",Chrome 129.0.0.0,,,15-10-2024 16:37:31,15-10-2024 16:37:35,3.575s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:37:35,15-10-2024 16:37:35,0.003s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 129.0.0.0,,,15-10-2024 16:37:35,15-10-2024 16:37:35,0.069s,PASSED
+"queryTemplate = ""select * from bdmozart.%s where %s = '%s'""",Chrome 129.0.0.0,,,15-10-2024 16:37:35,15-10-2024 16:37:35,0.001s,PASSED
+mozartRequestCondition = idrequest = '$mozartRequestId',Chrome 129.0.0.0,,,15-10-2024 16:37:35,15-10-2024 16:37:35,0.001s,PASSED
+"mi_refund_ek_quote = String.format(queryTemplate, ""mi_refund_ek_quote"", ""idrequest"", mozartRequestId)",Chrome 129.0.0.0,,,15-10-2024 16:37:35,15-10-2024 16:37:35,0.001s,PASSED
+"idQuote = database.DatabaseUtils.executeQuery(mi_refund_ek_quote, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:37:35,15-10-2024 16:37:38,2.973s,PASSED
+"mi_refund_ek_quote_passenger = String.format(queryTemplate, ""mi_refund_ek_quote_passenger"", ""idquote"", idQuote)",Chrome 129.0.0.0,,,15-10-2024 16:37:38,15-10-2024 16:37:38,0.001s,PASSED
+"idpassenger = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_passenger, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:37:38,15-10-2024 16:37:40,2.450s,PASSED
+"mi_refund_ek_quote_tkt_details = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_details"", ""idpassenger"", idpassenger)",Chrome 129.0.0.0,,,15-10-2024 16:37:40,15-10-2024 16:37:40,0.001s,PASSED
+"idtktdetails = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_tkt_details, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:37:40,15-10-2024 16:37:42,2.186s,PASSED
+"mi_refund_ek_quote_tkt_coupon_details = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_coupon_details"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.000s,PASSED
+"mi_refund_ek_quote_tkt_original_fare = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_original_fare"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.000s,PASSED
+"mi_refund_ek_quote_tkt_penalty_charges = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_penalty_charges"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.000s,PASSED
+"mi_refund_ek_quote_tkt_refund_fare = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_refund_fare"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.000s,PASSED
+"mi_refund_ek_quote_tkt_used_fare = String.format(queryTemplate, ""mi_refund_ek_quote_tkt_used_fare"", ""idtktdetails"", idtktdetails)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.000s,PASSED
+tables = new java.util.HashMap(),Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote"", mi_refund_ek_quote)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_passenger"", mi_refund_ek_quote_passenger)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_details"", mi_refund_ek_quote_tkt_details)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_coupon_details"", mi_refund_ek_quote_tkt_coupon_details)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_original_fare"", mi_refund_ek_quote_tkt_original_fare)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_penalty_charges"", mi_refund_ek_quote_tkt_penalty_charges)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.000s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_refund_fare"", mi_refund_ek_quote_tkt_refund_fare)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"tables.put(""mi_refund_ek_quote_tkt_used_fare"", mi_refund_ek_quote_tkt_used_fare)",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+str = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:37:42,0.001s,PASSED
+"for (Map$Entry<String, String> entry : tables.entrySet())",Chrome 129.0.0.0,,,15-10-2024 16:37:42,15-10-2024 16:38:04,21.230s,PASSED
+,,,,,,,
+Test Cases/MOZ-10510/TC 6_MOZ_11447 Verify Default Filtering Values in the Local Settlements Module,Chrome 129.0.0.0,,,15-10-2024 16:38:04,15-10-2024 16:39:10,1m - 6.338s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:38:04,15-10-2024 16:38:33,29.219s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:38:33,15-10-2024 16:38:51,17.868s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 129.0.0.0,,,15-10-2024 16:38:51,15-10-2024 16:38:55,3.672s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/filter_button""))",Chrome 129.0.0.0,,,15-10-2024 16:38:55,15-10-2024 16:38:57,2.204s,PASSED
+"verifyOptionSelectedByValue(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/select_filter_column_r1_c1""), ""date_processingdate"", false, 5)",Chrome 129.0.0.0,,,15-10-2024 16:38:57,15-10-2024 16:39:01,4.313s,PASSED
+"verifyOptionSelectedByValue(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/select_filter_column_r2_c1""), ""select_request_fop_settlem"", false, 5)",Chrome 129.0.0.0,,,15-10-2024 16:39:01,15-10-2024 16:39:05,4.093s,PASSED
+"verifyOptionSelectedByValue(findTestObject(""EK_Objects/Page_Mozart - LocalSettlements/select_filter_column_r3_c1""), ""select_ro_isocode_country"", false, 5)",Chrome 129.0.0.0,,,15-10-2024 16:39:05,15-10-2024 16:39:09,4.179s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,15-10-2024 16:39:09,15-10-2024 16:39:10,0.615s,PASSED
+,,,,,,,
+Test Cases/MOZ-12401/TC 2_MOZ-12624_Verify Storage of TKT-Quote for Successful WS Request,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:42,32.346s,FAILED
+mi_refund_ek_quote = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.000s,PASSED
+mi_refund_ek_quote_passenger = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.002s,PASSED
+mi_refund_ek_quote_tkt_details = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.000s,PASSED
+mi_refund_ek_quote_tkt_coupon_details = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.002s,PASSED
+mi_refund_ek_quote_tkt_original_fare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.001s,PASSED
+mi_refund_ek_quote_tkt_penalty_charges = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.001s,PASSED
+mi_refund_ek_quote_tkt_refund_fare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.001s,PASSED
+mi_refund_ek_quote_tkt_used_fare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.001s,PASSED
+idQuote = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.001s,PASSED
+idpassenger = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.000s,PASSED
+idtktdetails = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.002s,PASSED
+"mozartRequestId = ""O090510005""",Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.000s,PASSED
+"mi_refund_ek_quote = ""select * from bdmozart.mi_refund_ek_quote where idrequest = '"" + mozartRequestId + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:10,0.001s,PASSED
+"idQuote = database.DatabaseUtils.executeQuery(mi_refund_ek_quote, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:39:10,15-10-2024 16:39:13,3.120s,PASSED
+"mi_refund_ek_quote_passenger = ""select * from bdmozart.mi_refund_ek_quote_passenger where idquote = '"" + idQuote + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:13,15-10-2024 16:39:13,0.001s,PASSED
+"idpassenger = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_passenger, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:39:13,15-10-2024 16:39:16,2.883s,PASSED
+"mi_refund_ek_quote_tkt_details = ""select * from bdmozart.mi_refund_ek_quote_tkt_details where idpassenger = '"" + idpassenger + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:16,15-10-2024 16:39:16,0.001s,PASSED
+"idtktdetails = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_tkt_details, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:39:16,15-10-2024 16:39:19,3.000s,PASSED
+"mi_refund_ek_quote_tkt_coupon_details = ""select * from bdmozart.mi_refund_ek_quote_tkt_coupon_details where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.001s,PASSED
+"mi_refund_ek_quote_tkt_original_fare = ""select * from bdmozart.mi_refund_ek_quote_tkt_original_fare where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.001s,PASSED
+"mi_refund_ek_quote_tkt_penalty_charges = ""select * from bdmozart.mi_refund_ek_quote_tkt_penalty_charges where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.001s,PASSED
+"mi_refund_ek_quote_tkt_refund_fare = ""select * from bdmozart.mi_refund_ek_quote_tkt_refund_fare  where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.001s,PASSED
+"mi_refund_ek_quote_tkt_used_fare = ""select * from bdmozart.mi_refund_ek_quote_tkt_used_fare where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.001s,PASSED
+processJson = new utilityClass.JsonPaths(),Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.001s,PASSED
+"filePath = ""Test Data/TKT Quote Json.txt""",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.001s,PASSED
+"dbMap = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote"")",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:19,0.002s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap, mi_refund_ek_quote)",Chrome 129.0.0.0,,,15-10-2024 16:39:19,15-10-2024 16:39:22,2.902s,PASSED
+"dbMap1 = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote_passenger"")",Chrome 129.0.0.0,,,15-10-2024 16:39:22,15-10-2024 16:39:22,0.002s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap1, mi_refund_ek_quote_passenger)",Chrome 129.0.0.0,,,15-10-2024 16:39:22,15-10-2024 16:39:25,2.883s,PASSED
+"dbMap2 = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote_tkt_details"")",Chrome 129.0.0.0,,,15-10-2024 16:39:25,15-10-2024 16:39:25,0.002s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap2, mi_refund_ek_quote_tkt_details)",Chrome 129.0.0.0,,,15-10-2024 16:39:25,15-10-2024 16:39:28,3.231s,PASSED
+"dbMap3 = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote_tkt_coupon_details"")",Chrome 129.0.0.0,,,15-10-2024 16:39:28,15-10-2024 16:39:28,0.001s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap3, mi_refund_ek_quote_tkt_coupon_details)",Chrome 129.0.0.0,,,15-10-2024 16:39:28,15-10-2024 16:39:31,2.885s,PASSED
+"dbMap4 = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote_tkt_original_fare"")",Chrome 129.0.0.0,,,15-10-2024 16:39:31,15-10-2024 16:39:31,0.002s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap4, mi_refund_ek_quote_tkt_original_fare)",Chrome 129.0.0.0,,,15-10-2024 16:39:31,15-10-2024 16:39:34,2.850s,FAILED
+"dbMap5 = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote_tkt_penalty_charges"")",Chrome 129.0.0.0,,,15-10-2024 16:39:34,15-10-2024 16:39:34,0.002s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap5, mi_refund_ek_quote_tkt_penalty_charges)",Chrome 129.0.0.0,,,15-10-2024 16:39:34,15-10-2024 16:39:37,2.773s,PASSED
+"dbMap6 = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote_tkt_refund_fare"")",Chrome 129.0.0.0,,,15-10-2024 16:39:37,15-10-2024 16:39:37,0.002s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap6, mi_refund_ek_quote_tkt_refund_fare)",Chrome 129.0.0.0,,,15-10-2024 16:39:37,15-10-2024 16:39:40,2.693s,PASSED
+"dbMap7 = processJson.getColumnsWithJsonPath(""mi_refund_ek_quote_tkt_used_fare"")",Chrome 129.0.0.0,,,15-10-2024 16:39:40,15-10-2024 16:39:40,0.001s,PASSED
+"processJson.verifyJsonElementsValuesWithDatabaseValues(filePath, dbMap7, mi_refund_ek_quote_tkt_used_fare)",Chrome 129.0.0.0,,,15-10-2024 16:39:40,15-10-2024 16:39:42,2.783s,FAILED
+,,,,,,,
+Test Cases/MOZ-12401/TC 1_MOZ-12623_Verify that the refund request sent successfully and that the TKT Quote was received in the response,Chrome 129.0.0.0,,,15-10-2024 16:39:42,15-10-2024 16:39:58,16.130s,ERROR
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",Chrome 129.0.0.0,,,15-10-2024 16:39:43,15-10-2024 16:39:43,0.553s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ-12401_API/MOZ-12623_Full_Refund""))",Chrome 129.0.0.0,,,15-10-2024 16:39:43,15-10-2024 16:39:44,0.684s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 129.0.0.0,,,15-10-2024 16:39:44,15-10-2024 16:39:44,0.002s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 129.0.0.0,,,15-10-2024 16:39:44,15-10-2024 16:39:44,0.057s,PASSED
+println(mozartRequestId),Chrome 129.0.0.0,,,15-10-2024 16:39:44,15-10-2024 16:39:44,0.001s,PASSED
+QO_Task = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:44,15-10-2024 16:39:44,0.001s,PASSED
+mp_process = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:44,15-10-2024 16:39:44,0.001s,PASSED
+"for ([i = 0, i <= 4, (i++)])",Chrome 129.0.0.0,,,15-10-2024 16:39:44,15-10-2024 16:39:58,14.526s,FAILED
+,,,,,,,
+Test Cases/MOZ-12401/New Folder/TC 3_MOZ-12624_Verify Storage of TKT-Quote for Successful WS Request,Chrome 129.0.0.0,,,15-10-2024 16:39:58,15-10-2024 16:40:10,12.003s,ERROR
+mi_refund_ek_quote = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.000s,PASSED
+mi_refund_ek_quote_passenger = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+mi_refund_ek_quote_tkt_details = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+mi_refund_ek_quote_tkt_coupon_details = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+mi_refund_ek_quote_tkt_original_fare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+mi_refund_ek_quote_tkt_penalty_charges = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+mi_refund_ek_quote_tkt_refund_fare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+mi_refund_ek_quote_tkt_used_fare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+idQuote = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.001s,PASSED
+idpassenger = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.000s,PASSED
+idtktdetails = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.000s,PASSED
+"mi_refund_ek_quote = ""select * from bdmozart.mi_refund_ek_quote where idrequest = 'O090510005'""",Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:39:59,0.000s,PASSED
+"idQuote = database.DatabaseUtils.executeQuery(mi_refund_ek_quote, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:39:59,15-10-2024 16:40:02,2.942s,PASSED
+"mi_refund_ek_quote_passenger = ""select * from bdmozart.mi_refund_ek_quote_passenger where idquote = '"" + idQuote + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:40:02,15-10-2024 16:40:02,0.002s,PASSED
+"idpassenger = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_passenger, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:40:02,15-10-2024 16:40:05,2.882s,PASSED
+"mi_refund_ek_quote_tkt_details = ""select * from bdmozart.mi_refund_ek_quote_tkt_details where idpassenger = '"" + idpassenger + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:40:05,15-10-2024 16:40:05,0.001s,PASSED
+"idtktdetails = database.DatabaseUtils.executeQuery(mi_refund_ek_quote_tkt_details, ""id"", 1)",Chrome 129.0.0.0,,,15-10-2024 16:40:05,15-10-2024 16:40:07,2.847s,PASSED
+"mi_refund_ek_quote_tkt_coupon_details = ""select * from bdmozart.mi_refund_ek_quote_tkt_coupon_details where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_tkt_original_fare = ""select * from bdmozart.mi_refund_ek_quote_tkt_original_fare where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_tkt_penalty_charges = ""select * from bdmozart.mi_refund_ek_quote_tkt_penalty_charges where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_tkt_refund_fare = ""select * from bdmozart.mi_refund_ek_quote_tkt_refund_fare  where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_tkt_used_fare = ""select * from bdmozart.mi_refund_ek_quote_tkt_used_fare where idtktdetails = '"" + idtktdetails + ""'""",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+mi_refund_ek_quote_map = new java.util.HashMap(),Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.002s,PASSED
+"mi_refund_ek_quote_map.put(""iswaiverapplied"", ""false"")",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.002s,PASSED
+"mi_refund_ek_quote_map.put(""isnoshowfeesapplied"", ""false"")",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_map.put(""uniquereferencenumber"", ""2001762368172376"")",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_map.put(""processingstatus"", ""Y"")",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_map.put(""quote_type"", ""null"")",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.002s,PASSED
+"mi_refund_ek_quote_map.put(""currencycode"", ""AED"")",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+"mi_refund_ek_quote_map.put(""isnoshowfeesapplicable"", ""false"")",Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:07,0.001s,PASSED
+mi_refund_ek_quote_table = database.DatabaseUtils.getColumnNamesAndValues(mi_refund_ek_quote),Chrome 129.0.0.0,,,15-10-2024 16:40:07,15-10-2024 16:40:10,2.874s,PASSED
+"utilityClass.JsonPaths.verifyJsonElementsValuesWithDatabaseValues2(mi_refund_ek_quote_map, mi_refund_ek_quote_table)",Chrome 129.0.0.0,,,15-10-2024 16:40:10,15-10-2024 16:40:10,0.078s,ERROR
+,,,,,,,
+Test Cases/MOZ-10510/TC 5_MOZ_11446 Verify Landing Page Layout and Filtering Area for the Local Settlements Module,Chrome 129.0.0.0,,,15-10-2024 16:40:10,15-10-2024 16:40:58,47.385s,FAILED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:40:11,15-10-2024 16:40:37,26.166s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:40:37,15-10-2024 16:40:44,6.885s,PASSED
+"verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""), 2)",Chrome 129.0.0.0,,,15-10-2024 16:40:44,15-10-2024 16:40:44,0.260s,PASSED
+"click(findTestObject(""Object Repository/EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""))",Chrome 129.0.0.0,,,15-10-2024 16:40:44,15-10-2024 16:40:45,1.534s,PASSED
+"click(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/filter_button""))",Chrome 129.0.0.0,,,15-10-2024 16:40:45,15-10-2024 16:40:47,1.154s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/compact_mode""), 10)",Chrome 129.0.0.0,,,15-10-2024 16:40:47,15-10-2024 16:40:47,0.586s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/grouped""), 10)",Chrome 129.0.0.0,,,15-10-2024 16:40:47,15-10-2024 16:40:47,0.265s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/EK_Objects/Page_Mozart - LocalSettlements/show_exceptions""), 10)",Chrome 129.0.0.0,,,15-10-2024 16:40:47,15-10-2024 16:40:58,10.341s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 1_MOZ_11444 Verify Creation of the Local Settlements Module in Mozart,Chrome 129.0.0.0,,,15-10-2024 16:40:58,15-10-2024 16:41:47,48.896s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 129.0.0.0,,,15-10-2024 16:40:58,15-10-2024 16:41:30,32.062s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 129.0.0.0,,,15-10-2024 16:41:30,15-10-2024 16:41:46,15.648s,PASSED
+"verifyElementPresent(findTestObject(""EK_Objects/Page_Mozart - Dashboard/Click_On_Local_Settlements""), 2)",Chrome 129.0.0.0,,,15-10-2024 16:41:46,15-10-2024 16:41:46,0.371s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,15-10-2024 16:41:46,15-10-2024 16:41:47,0.607s,PASSED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 4_MOZ_11533 Verify linking after Json request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4314249-2ec2-4e2e-80a3-c4b35c36581b</testCaseGuid>
+</TestCaseEntity>

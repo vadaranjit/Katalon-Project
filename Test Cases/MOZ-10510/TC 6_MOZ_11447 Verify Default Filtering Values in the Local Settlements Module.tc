@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 6_MOZ_11447 Verify Default Filtering Values in the Local Settlements Module</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>311f9da6-2b83-4406-b621-47866ded0eb5</testCaseGuid>
+</TestCaseEntity>

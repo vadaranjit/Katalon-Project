@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1_MOZ_9147 Verify Passenger Remarks fields should be read only in Audit screen for Captured Refunds</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00fc503c-0d90-4fff-89a6-0b28eed61bc0</testCaseGuid>
+</TestCaseEntity>

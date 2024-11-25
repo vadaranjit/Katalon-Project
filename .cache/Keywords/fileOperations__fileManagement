@@ -1,0 +1,66 @@
+{
+  "keywordFileContentHash": "BDF4EC5967D9D525EC88A3F0FD9FA3DF",
+  "keywordClasses": [
+    {
+      "name": "fileOperations.FileUtils",
+      "keywordMethods": [
+        {
+          "name": "copyFileWithUniqueName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "copyFileWithUniqueNameDemo",
+          "parameters": [
+            {
+              "name": "sourceFilePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "destinationDirPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "processedFile",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "copyFileWithUniqueNameDemo1",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

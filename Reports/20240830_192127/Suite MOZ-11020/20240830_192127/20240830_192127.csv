@@ -1,0 +1,79 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite MOZ-11020,Chrome 128.0.0.0,,,30-08-2024 19:21:37,30-08-2024 19:24:50,3m - 13.051s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 5_MOZ_11533 Verify linking after Refund Capture,Chrome 128.0.0.0,,,30-08-2024 19:21:38,30-08-2024 19:24:00,2m - 22.831s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),Chrome 128.0.0.0,,,30-08-2024 19:21:38,30-08-2024 19:23:26,1m - 47.567s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),Chrome 128.0.0.0,,,30-08-2024 19:23:26,30-08-2024 19:23:26,0.260s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refunds""))",Chrome 128.0.0.0,,,30-08-2024 19:23:26,30-08-2024 19:23:27,0.528s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - Dashboard/a_Refund Capture""))",Chrome 128.0.0.0,,,30-08-2024 19:23:27,30-08-2024 19:23:30,3.117s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes""), ""RF_Both"", false)",Chrome 128.0.0.0,,,30-08-2024 19:23:30,30-08-2024 19:23:31,0.786s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox""), ""6747279623"")",Chrome 128.0.0.0,,,30-08-2024 19:23:31,30-08-2024 19:23:32,0.832s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button""))",Chrome 128.0.0.0,,,30-08-2024 19:23:32,30-08-2024 19:23:32,0.595s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), ""IN - India"")",Chrome 128.0.0.0,,,30-08-2024 19:23:32,30-08-2024 19:23:33,0.508s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,30-08-2024 19:23:33,30-08-2024 19:23:33,0.471s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown""), ""CA"", false)",Chrome 128.0.0.0,,,30-08-2024 19:23:33,30-08-2024 19:23:34,1.123s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox""), ""1"")",Chrome 128.0.0.0,,,30-08-2024 19:23:34,30-08-2024 19:23:35,0.550s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox""), uniqueNumber)",Chrome 128.0.0.0,,,30-08-2024 19:23:35,30-08-2024 19:23:35,0.558s,PASSED
+"selectOptionByValue(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/title_PassengerDetails_Select""), ""Mr"", false)",Chrome 128.0.0.0,,,30-08-2024 19:23:35,30-08-2024 19:23:36,0.799s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/passengerName_PassengerDetails_TextBox""), ""automationTest"")",Chrome 128.0.0.0,,,30-08-2024 19:23:36,30-08-2024 19:23:37,0.585s,PASSED
+"sendKeys(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/emailAddress_PassengerDetails_TextBox""), ""Katalon@studio.com"")",Chrome 128.0.0.0,,,30-08-2024 19:23:37,30-08-2024 19:23:37,0.594s,PASSED
+"selectOptionByLabel(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/select_Currency""), ""INR"", false)",Chrome 128.0.0.0,,,30-08-2024 19:23:37,30-08-2024 19:23:38,0.814s,PASSED
+"click(findTestObject(""EK_Objects/Page_Mozart - RefundsCapture/send_Button""))",Chrome 128.0.0.0,,,30-08-2024 19:23:38,30-08-2024 19:23:39,0.640s,PASSED
+requestId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 128.0.0.0,,,30-08-2024 19:23:39,30-08-2024 19:23:39,0.008s,PASSED
+"for ([i = 0, i <= 5, (i++)])",Chrome 128.0.0.0,,,30-08-2024 19:23:39,30-08-2024 19:23:45,5.988s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Auth Token""))",Chrome 128.0.0.0,,,30-08-2024 19:23:45,30-08-2024 19:23:50,5.329s,PASSED
+"pnrWaiverResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_pnr_waiver_request""))",Chrome 128.0.0.0,,,30-08-2024 19:23:50,30-08-2024 19:23:51,1.006s,PASSED
+"verifyResponseStatusCode(pnrWaiverResponse, 200)",Chrome 128.0.0.0,,,30-08-2024 19:23:51,30-08-2024 19:23:51,0.005s,PASSED
+"mi_pnr_waiver_remarks = ""select * from bdmozart.mi_pnr_waiver_remarks where remarkstext = '"" + uniqueNumber + ""'""",Chrome 128.0.0.0,,,30-08-2024 19:23:51,30-08-2024 19:23:51,0.002s,PASSED
+"waiverId = database.DatabaseUtils.executeQuery(mi_pnr_waiver_remarks, ""waiver_id"", 1)",Chrome 128.0.0.0,,,30-08-2024 19:23:51,30-08-2024 19:23:56,4.669s,PASSED
+"md_rfnd_pnr_waivers = ""select * from bdmozart.md_rfnd_pnr_waivers where idrequest = '"" + requestId + ""'"" + "" order by id desc"" + "" """,Chrome 128.0.0.0,,,30-08-2024 19:23:56,30-08-2024 19:23:56,0.003s,PASSED
+"waiverIdLinkedToRequestId = database.DatabaseUtils.executeQuery(md_rfnd_pnr_waivers, ""idmipnrwaiver"", 1)",Chrome 128.0.0.0,,,30-08-2024 19:23:56,30-08-2024 19:24:00,4.493s,PASSED
+"verifyMatch(waiverIdLinkedToRequestId, waiverId, false)",Chrome 128.0.0.0,,,30-08-2024 19:24:00,30-08-2024 19:24:00,0.076s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 4_MOZ_11533 Verify linking after Json request,Chrome 128.0.0.0,,,30-08-2024 19:24:00,30-08-2024 19:24:13,12.714s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),Chrome 128.0.0.0,,,30-08-2024 19:24:01,30-08-2024 19:24:01,0.005s,PASSED
+demoPackage.UtilityDemo.requestNumber(),Chrome 128.0.0.0,,,30-08-2024 19:24:01,30-08-2024 19:24:01,0.024s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Auth Token""))",Chrome 128.0.0.0,,,30-08-2024 19:24:01,30-08-2024 19:24:01,0.277s,PASSED
+"pnrWaiverResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_pnr_waiver_request""))",Chrome 128.0.0.0,,,30-08-2024 19:24:01,30-08-2024 19:24:01,0.539s,PASSED
+"verifyResponseStatusCode(pnrWaiverResponse, 200)",Chrome 128.0.0.0,,,30-08-2024 19:24:01,30-08-2024 19:24:01,0.005s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_full_refund-json""))",Chrome 128.0.0.0,,,30-08-2024 19:24:01,30-08-2024 19:24:04,2.286s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",Chrome 128.0.0.0,,,30-08-2024 19:24:04,30-08-2024 19:24:04,0.005s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",Chrome 128.0.0.0,,,30-08-2024 19:24:04,30-08-2024 19:24:04,0.164s,PASSED
+"println(""The mozart_request_id is: "" + mozartRequestId)",Chrome 128.0.0.0,,,30-08-2024 19:24:04,30-08-2024 19:24:04,0.006s,PASSED
+"mi_pnr_waiver_remarks = ""select * from bdmozart.mi_pnr_waiver_remarks where remarkstext = '"" + uniqueNumber + ""'""",Chrome 128.0.0.0,,,30-08-2024 19:24:04,30-08-2024 19:24:04,0.004s,PASSED
+"waiverId = database.DatabaseUtils.executeQuery(mi_pnr_waiver_remarks, ""waiver_id"", 1)",Chrome 128.0.0.0,,,30-08-2024 19:24:04,30-08-2024 19:24:08,4.510s,PASSED
+"println(""The Waiver_id is: "" + waiverId)",Chrome 128.0.0.0,,,30-08-2024 19:24:08,30-08-2024 19:24:08,0.003s,PASSED
+"md_rfnd_pnr_waivers = ""select * from bdmozart.md_rfnd_pnr_waivers where idrequest = '"" + mozartRequestId + ""'"" + "" order by id desc"" + "" """,Chrome 128.0.0.0,,,30-08-2024 19:24:08,30-08-2024 19:24:08,0.002s,PASSED
+"waiverIdLinkedToRequestId = database.DatabaseUtils.executeQuery(md_rfnd_pnr_waivers, ""idmipnrwaiver"", 1)",Chrome 128.0.0.0,,,30-08-2024 19:24:08,30-08-2024 19:24:13,4.630s,PASSED
+"verifyMatch(waiverIdLinkedToRequestId, waiverId, false)",Chrome 128.0.0.0,,,30-08-2024 19:24:13,30-08-2024 19:24:13,0.005s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines,Chrome 128.0.0.0,,,30-08-2024 19:24:13,30-08-2024 19:24:19,5.579s,PASSED
+"PnrWaiverController_check = database.DBConnection.executeQuerys(""mozart_emirates"", ""select * from bdmozart.mc_endpoints_exposed"", ""enabled"", 7)",Chrome 128.0.0.0,,,30-08-2024 19:24:13,30-08-2024 19:24:18,4.591s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Auth Token""))",Chrome 128.0.0.0,,,30-08-2024 19:24:18,30-08-2024 19:24:18,0.261s,PASSED
+"response = sendRequest(findTestObject(""API/MOZ_11020_API/pnr_waiver_request""))",Chrome 128.0.0.0,,,30-08-2024 19:24:18,30-08-2024 19:24:19,0.447s,PASSED
+"if (PnrWaiverController_check == ""t"")",Chrome 128.0.0.0,,,30-08-2024 19:24:19,30-08-2024 19:24:19,0.004s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response,Chrome 128.0.0.0,,,30-08-2024 19:24:19,30-08-2024 19:24:20,1.199s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Auth Token""))",Chrome 128.0.0.0,,,30-08-2024 19:24:19,30-08-2024 19:24:19,0.320s,PASSED
+"response = sendRequest(findTestObject(""API/MOZ_11020_API/pnr_waiver_request""))",Chrome 128.0.0.0,,,30-08-2024 19:24:19,30-08-2024 19:24:20,0.450s,PASSED
+responseBody = response.getResponseText(),Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.001s,PASSED
+println(JsonOutput.prettyPrint(responseBody)),Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.060s,PASSED
+"verifyResponseStatusCode(response, 200)",Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.003s,PASSED
+slurper = new groovy.json.JsonSlurper(),Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.002s,PASSED
+jsonResponse = slurper.parseText(response.getResponseText()),Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.003s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(waiver_effective_date != null, ""waiver_effective_date is missing in the response"")",Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.082s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(waiver_expiry_date != null, ""waiver_expiry_date is missing in the response"")",Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.002s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:20,0.001s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR,Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:50,30.237s,PASSED
+"mi_pnr_waiver = database.DatabaseUtils.checkTableExists(""mi_pnr_waiver"")",Chrome 128.0.0.0,,,30-08-2024 19:24:20,30-08-2024 19:24:26,6.363s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver, ""The mi_pnr_waiver table should be available in the database."")",Chrome 128.0.0.0,,,30-08-2024 19:24:26,30-08-2024 19:24:26,0.002s,PASSED
+"mi_pnr_waiver_remarks = database.DatabaseUtils.checkTableExists(""mi_pnr_waiver_remarks"")",Chrome 128.0.0.0,,,30-08-2024 19:24:26,30-08-2024 19:24:33,6.203s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver_remarks, ""The mi_pnr_waiver_remarks table should be available in the database."")",Chrome 128.0.0.0,,,30-08-2024 19:24:33,30-08-2024 19:24:33,0.003s,PASSED
+"md_rfnd_pnr_waivers = database.DatabaseUtils.checkTableExists(""md_rfnd_pnr_waivers"")",Chrome 128.0.0.0,,,30-08-2024 19:24:33,30-08-2024 19:24:39,6.007s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(md_rfnd_pnr_waivers, ""The md_rfnd_pnr_waivers table should be available in the database."")",Chrome 128.0.0.0,,,30-08-2024 19:24:39,30-08-2024 19:24:39,0.002s,PASSED
+"controller_name_column_row_value = database.DBConnection.SQL(""select * from bdmozart.mc_endpoints_exposed where controller_name = 'PnrWaiverController'"", ""controller_name"", 1)",Chrome 128.0.0.0,,,30-08-2024 19:24:39,30-08-2024 19:24:44,5.694s,PASSED
+"utilityClass.CustomSoftAssert.assertEquals(controller_name_column_row_value, ""PnrWaiverController"", ""Expected Column value is = PnrWaiverController"")",Chrome 128.0.0.0,,,30-08-2024 19:24:44,30-08-2024 19:24:44,0.007s,PASSED
+"description_column_row_value = database.DBConnection.SQL(""select * from bdmozart.mc_file_type where code = 'MWF'"", ""description"", 1)",Chrome 128.0.0.0,,,30-08-2024 19:24:44,30-08-2024 19:24:50,5.728s,PASSED
+"utilityClass.CustomSoftAssert.assertEquals(description_column_row_value, ""Pnr Waiver File"", ""Expected Column value is = Pnr Waiver File"")",Chrome 128.0.0.0,,,30-08-2024 19:24:50,30-08-2024 19:24:50,0.003s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),Chrome 128.0.0.0,,,30-08-2024 19:24:50,30-08-2024 19:24:50,0.002s,PASSED

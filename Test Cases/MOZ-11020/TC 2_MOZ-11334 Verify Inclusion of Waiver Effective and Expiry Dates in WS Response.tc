@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d50df66e-716f-446a-90eb-6a316665cbdb</testCaseGuid>
+</TestCaseEntity>

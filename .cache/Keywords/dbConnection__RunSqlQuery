@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "838614ACB452F42985089ABB9616E1A6",
+  "keywordClasses": [
+    {
+      "name": "dbConnection.RunSqlQuery",
+      "keywordMethods": [
+        {
+          "name": "SQL",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite MOZ-11020,,,,20-10-2024 16:53:12,20-10-2024 16:54:11,59.641s,FAILED
+,,,,,,,
+Test Cases/MOZ-11020/TC 5_MOZ_11533 Verify linking after Refund Capture,,,,20-10-2024 16:53:13,20-10-2024 16:53:20,7.202s,FAILED
+demoPackage.MozartLogin.LoginWithChromeForEK(),,,,20-10-2024 16:53:14,20-10-2024 16:53:20,6.148s,FAILED
+,,,,,,,
+Test Cases/MOZ-11020/TC 4_MOZ_11533 Verify linking after Json request,,,,20-10-2024 16:53:20,20-10-2024 16:53:39,19.566s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),,,,20-10-2024 16:53:20,20-10-2024 16:53:21,0.981s,PASSED
+demoPackage.UtilityDemo.requestNumber(),,,,20-10-2024 16:53:21,20-10-2024 16:53:21,0.052s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",,,,20-10-2024 16:53:21,20-10-2024 16:53:28,6.110s,PASSED
+"pnrWaiverResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_pnr_waiver_request""))",,,,20-10-2024 16:53:28,20-10-2024 16:53:28,0.906s,PASSED
+"verifyResponseStatusCode(pnrWaiverResponse, 200)",,,,20-10-2024 16:53:28,20-10-2024 16:53:28,0.005s,PASSED
+"fullRefundResponse = sendRequest(findTestObject(""API/MOZ_11020_API/moz_11533_full_refund-json""))",,,,20-10-2024 16:53:28,20-10-2024 16:53:29,0.817s,PASSED
+"verifyResponseStatusCode(fullRefundResponse, 200)",,,,20-10-2024 16:53:29,20-10-2024 16:53:29,0.007s,PASSED
+"mozartRequestId = getElementPropertyValue(fullRefundResponse, ""data[0].mozart_request_id"")",,,,20-10-2024 16:53:29,20-10-2024 16:53:29,0.145s,PASSED
+"println(""The mozart_request_id is: "" + mozartRequestId)",,,,20-10-2024 16:53:29,20-10-2024 16:53:29,0.006s,PASSED
+"mi_pnr_waiver_remarks = ""select * from bdmozart.mi_pnr_waiver_remarks where remarkstext = '"" + uniqueNumber + ""'""",,,,20-10-2024 16:53:29,20-10-2024 16:53:29,0.004s,PASSED
+"waiverId = database.DatabaseUtils.executeQuery(mi_pnr_waiver_remarks, ""waiver_id"", 1)",,,,20-10-2024 16:53:29,20-10-2024 16:53:35,5.416s,PASSED
+"println(""The Waiver_id is: "" + waiverId)",,,,20-10-2024 16:53:35,20-10-2024 16:53:35,0.003s,PASSED
+"md_rfnd_pnr_waivers = ""select * from bdmozart.md_rfnd_pnr_waivers where idrequest = '"" + mozartRequestId + ""'"" + "" order by id desc"" + "" """,,,,20-10-2024 16:53:35,20-10-2024 16:53:35,0.004s,PASSED
+"waiverIdLinkedToRequestId = database.DatabaseUtils.executeQuery(md_rfnd_pnr_waivers, ""idmipnrwaiver"", 1)",,,,20-10-2024 16:53:35,20-10-2024 16:53:39,4.494s,PASSED
+"verifyMatch(waiverIdLinkedToRequestId, waiverId, false)",,,,20-10-2024 16:53:39,20-10-2024 16:53:39,0.067s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines,,,,20-10-2024 16:53:39,20-10-2024 16:53:45,5.324s,PASSED
+"PnrWaiverController_check = database.DBConnection.executeQuerys(""mozart_emirates"", ""select * from bdmozart.mc_endpoints_exposed"", ""enabled"", 7)",,,,20-10-2024 16:53:40,20-10-2024 16:53:44,4.326s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",,,,20-10-2024 16:53:44,20-10-2024 16:53:44,0.301s,PASSED
+"response = sendRequest(findTestObject(""API/MOZ_11020_API/pnr_waiver_request""))",,,,20-10-2024 16:53:44,20-10-2024 16:53:45,0.468s,PASSED
+"if (PnrWaiverController_check == ""t"")",,,,20-10-2024 16:53:45,20-10-2024 16:53:45,0.007s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response,,,,20-10-2024 16:53:45,20-10-2024 16:53:46,1.198s,PASSED
+"apiRequests.apiConnection.runAuthToken(findTestObject(""API/Demo API/Auth Token""))",,,,20-10-2024 16:53:45,20-10-2024 16:53:45,0.294s,PASSED
+"response = sendRequest(findTestObject(""API/MOZ_11020_API/pnr_waiver_request""))",,,,20-10-2024 16:53:45,20-10-2024 16:53:46,0.450s,PASSED
+responseBody = response.getResponseText(),,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.002s,PASSED
+println(JsonOutput.prettyPrint(responseBody)),,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.073s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.006s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.003s,PASSED
+jsonResponse = slurper.parseText(response.getResponseText()),,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.004s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(waiver_effective_date != null, ""waiver_effective_date is missing in the response"")",,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.095s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(waiver_expiry_date != null, ""waiver_expiry_date is missing in the response"")",,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.004s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),,,,20-10-2024 16:53:46,20-10-2024 16:53:46,0.004s,PASSED
+,,,,,,,
+Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR,,,,20-10-2024 16:53:46,20-10-2024 16:54:11,25.224s,PASSED
+"mi_pnr_waiver = database.DatabaseUtils.checkTableExists(""mi_pnr_waiver"")",,,,20-10-2024 16:53:46,20-10-2024 16:53:52,5.707s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver, ""The mi_pnr_waiver table should be available in the database."")",,,,20-10-2024 16:53:52,20-10-2024 16:53:52,0.003s,PASSED
+"mi_pnr_waiver_remarks = database.DatabaseUtils.checkTableExists(""mi_pnr_waiver_remarks"")",,,,20-10-2024 16:53:52,20-10-2024 16:53:57,5.095s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver_remarks, ""The mi_pnr_waiver_remarks table should be available in the database."")",,,,20-10-2024 16:53:57,20-10-2024 16:53:57,0.003s,PASSED
+"md_rfnd_pnr_waivers = database.DatabaseUtils.checkTableExists(""md_rfnd_pnr_waivers"")",,,,20-10-2024 16:53:57,20-10-2024 16:54:02,5.261s,PASSED
+"utilityClass.CustomSoftAssert.assertTrue(md_rfnd_pnr_waivers, ""The md_rfnd_pnr_waivers table should be available in the database."")",,,,20-10-2024 16:54:02,20-10-2024 16:54:02,0.004s,PASSED
+"controller_name_column_row_value = database.DBConnection.SQL(""select * from bdmozart.mc_endpoints_exposed where controller_name = 'PnrWaiverController'"", ""controller_name"", 1)",,,,20-10-2024 16:54:02,20-10-2024 16:54:07,4.229s,PASSED
+"utilityClass.CustomSoftAssert.assertEquals(controller_name_column_row_value, ""PnrWaiverController"", ""Expected Column value is = PnrWaiverController"")",,,,20-10-2024 16:54:07,20-10-2024 16:54:07,0.008s,PASSED
+"description_column_row_value = database.DBConnection.SQL(""select * from bdmozart.mc_file_type where code = 'MWF'"", ""description"", 1)",,,,20-10-2024 16:54:07,20-10-2024 16:54:11,4.605s,PASSED
+"utilityClass.CustomSoftAssert.assertEquals(description_column_row_value, ""Pnr Waiver File"", ""Expected Column value is = Pnr Waiver File"")",,,,20-10-2024 16:54:11,20-10-2024 16:54:11,0.003s,PASSED
+utilityClass.CustomSoftAssert.assertAll(),,,,20-10-2024 16:54:11,20-10-2024 16:54:11,0.002s,PASSED

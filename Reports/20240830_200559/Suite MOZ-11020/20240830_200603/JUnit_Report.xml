@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite MOZ-11020" time="203.393" tests="5" failures="0" errors="0">
+   <testsuite name="Suite MOZ-11020" tests="5" failures="0" errors="0" time="203.393" skipped="0" timestamp="30-08-2024T20:21:56" hostname="ranajit.vadar - CCE0231.accelya.local" id="Test Suites/Suite MOZ-11020">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20240830_200559\\Suite MOZ-11020\\20240830_200603"/>
+         <property name="logFiles" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20240830_200559\\Suite MOZ-11020\\20240830_200603\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ranajit.vadar - CCE0231.accelya.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="10.50.1.80"/>
+         <property name="sessionId" value="ed262deb7f77a76df49b69f3e8ae6a1b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MOZ-11020/TC 5_MOZ_11533 Verify linking after Refund Capture" time="130.709" classname="Test Cases/MOZ-11020/TC 5_MOZ_11533 Verify linking after Refund Capture" status="PASSED">
+         <system-out><![CDATA[30-08-2024T20:21:56 - [TEST_CASE][PASSED] - Test Cases/MOZ-11020/TC 5_MOZ_11533 Verify linking after Refund Capture: Test Cases/MOZ-11020/TC 5_MOZ_11533 Verify linking after Refund Capture
+
+30-08-2024T20:21:57 - [TEST_STEP][PASSED] - demoPackage.MozartLogin.LoginWithChromeForEK(): demoPackage.MozartLogin.LoginWithChromeForEK is PASSED
+
+30-08-2024T20:21:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T20:21:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T20:22:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T20:22:02 - [MESSAGE][PASSED] - Navigate to 'https://accelyacomtest.accelya.local/MozartTest/AirlinesHub/Index' successfully
+
+30-08-2024T20:22:03 - [MESSAGE][PASSED] - Current window maximized
+
+30-08-2024T20:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MozartChrome/ChromeAdvance/ClickOnAdvanceButton' is clicked on
+
+30-08-2024T20:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/MozartChrome/ChromeAdvance/ProccedLink' is clicked on
+
+30-08-2024T20:22:18 - [MESSAGE][PASSED] - Text 'supermozart' is set on object 'Object Repository/MozartChrome/Page_/input_Username_Login'
+
+30-08-2024T20:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MozartChrome/Page_/button_Next' is clicked on
+
+30-08-2024T20:22:20 - [MESSAGE][PASSED] - Text 'Accelya.1' is set on object 'Object Repository/MozartChrome/Page_/input_Password_Password'
+
+30-08-2024T20:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MozartChrome/Page_/button_Sign in' is clicked on
+
+30-08-2024T20:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MozartChrome/Page_Mozart - AirlinesHub/button_Please select' is clicked on
+
+30-08-2024T20:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - AirlinesHub/a_176 Emirates' is clicked on
+
+30-08-2024T20:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MozartChrome/Page_Mozart - AirlinesHub/a_Select' is clicked on
+
+30-08-2024T20:23:23 - [MESSAGE][PASSED] - demoPackage.MozartLogin.LoginWithChromeForEK is PASSED
+
+30-08-2024T20:23:23 - [TEST_STEP][PASSED] - uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(): utilityClass.GenericMethods.UniqueNumberGenerator is PASSED
+
+30-08-2024T20:23:23 - [MESSAGE][PASSED] - utilityClass.GenericMethods.UniqueNumberGenerator is PASSED
+
+30-08-2024T20:23:23 - [TEST_STEP][PASSED] - click(findTestObject("EK_Objects/Page_Mozart - Dashboard/a_Refunds")): Object: 'Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refunds' is clicked on
+
+30-08-2024T20:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refunds' is clicked on
+
+30-08-2024T20:23:24 - [TEST_STEP][PASSED] - click(findTestObject("EK_Objects/Page_Mozart - Dashboard/a_Refund Capture")): Object: 'Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refund Capture' is clicked on
+
+30-08-2024T20:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refund Capture' is clicked on
+
+30-08-2024T20:23:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes"), "RF_Both", false): All options with value 'RF_Both' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes' 
+
+30-08-2024T20:23:30 - [MESSAGE][PASSED] - All options with value 'RF_Both' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes' 
+
+30-08-2024T20:23:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox"), "6747279623"): Keys '6747279623' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox'
+
+30-08-2024T20:23:31 - [MESSAGE][PASSED] - Keys '6747279623' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/documentNumber_Textbox'
+
+30-08-2024T20:23:31 - [TEST_STEP][PASSED] - click(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/country_Button")): Object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/country_Button' is clicked on
+
+30-08-2024T20:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/country_Button' is clicked on
+
+30-08-2024T20:23:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox"), "IN - India"): Keys 'IN - India' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox'
+
+30-08-2024T20:23:32 - [MESSAGE][PASSED] - Keys 'IN - India' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox'
+
+30-08-2024T20:23:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox'
+
+30-08-2024T20:23:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/country_Button_Inside_TextBox'
+
+30-08-2024T20:23:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown"), "CA", false): All options with value 'CA' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown' 
+
+30-08-2024T20:23:33 - [MESSAGE][PASSED] - All options with value 'CA' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/requestedFOP_DropDown' 
+
+30-08-2024T20:23:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox"), "1"): Keys '1' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox'
+
+30-08-2024T20:23:34 - [MESSAGE][PASSED] - Keys '1' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/couponsRequested_TextBox'
+
+30-08-2024T20:23:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox"), uniqueNumber): Keys '20240830202323' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox'
+
+30-08-2024T20:23:34 - [MESSAGE][PASSED] - Keys '20240830202323' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/passengerRemarks_TextBox'
+
+30-08-2024T20:23:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/title_PassengerDetails_Select"), "Mr", false): All options with value 'Mr' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/title_PassengerDetails_Select' 
+
+30-08-2024T20:23:35 - [MESSAGE][PASSED] - All options with value 'Mr' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/title_PassengerDetails_Select' 
+
+30-08-2024T20:23:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/passengerName_PassengerDetails_TextBox"), "automationTest"): Keys 'automationTest' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/passengerName_PassengerDetails_TextBox'
+
+30-08-2024T20:23:36 - [MESSAGE][PASSED] - Keys 'automationTest' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/passengerName_PassengerDetails_TextBox'
+
+30-08-2024T20:23:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/emailAddress_PassengerDetails_TextBox"), "Katalon@studio.com"): Keys 'Katalon@studio.com' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/emailAddress_PassengerDetails_TextBox'
+
+30-08-2024T20:23:36 - [MESSAGE][PASSED] - Keys 'Katalon@studio.com' sent to object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/emailAddress_PassengerDetails_TextBox'
+
+30-08-2024T20:23:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/select_Currency"), "INR", false): All options with label 'INR' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/select_Currency' 
+
+30-08-2024T20:23:37 - [MESSAGE][PASSED] - All options with label 'INR' are selected in object 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/select_Currency' 
+
+30-08-2024T20:23:37 - [TEST_STEP][PASSED] - click(findTestObject("EK_Objects/Page_Mozart - RefundsCapture/send_Button")): Object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/send_Button' is clicked on
+
+30-08-2024T20:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EK_Objects/Page_Mozart - RefundsCapture/send_Button' is clicked on
+
+30-08-2024T20:23:38 - [TEST_STEP][PASSED] - requestId = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+30-08-2024T20:23:38 - [TEST_STEP][PASSED] - for ([i = 0, i <= 5, (i++)]): null
+
+30-08-2024T20:23:38 - [TEST_STEP][PASSED] - mi_refund_capture_main = "select * from bdmozart.mi_refund_capture_main where agentremarks = '" + uniqueNumber + "'": null
+
+30-08-2024T20:23:38 - [TEST_STEP][PASSED] - requestId = database.DatabaseUtils.executeQuery(mi_refund_capture_main, "idrequest", 1): database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:23:44 - [MESSAGE][PASSED] - database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:23:44 - [TEST_STEP][PASSED] - if (requestId != null): null
+
+30-08-2024T20:23:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-08-2024T20:23:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-08-2024T20:23:46 - [TEST_STEP][PASSED] - mi_refund_capture_main = "select * from bdmozart.mi_refund_capture_main where agentremarks = '" + uniqueNumber + "'": null
+
+30-08-2024T20:23:46 - [TEST_STEP][PASSED] - requestId = database.DatabaseUtils.executeQuery(mi_refund_capture_main, "idrequest", 1): database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:23:50 - [MESSAGE][PASSED] - database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:23:50 - [TEST_STEP][PASSED] - if (requestId != null): null
+
+30-08-2024T20:23:50 - [TEST_STEP][PASSED] - break: null
+
+30-08-2024T20:23:50 - [TEST_STEP][PASSED] - apiRequests.apiConnection.runAuthToken(findTestObject("API/Auth Token")): apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:23:55 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\0.har
+
+30-08-2024T20:23:55 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:23:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:23:55 - [MESSAGE][PASSED] - apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:23:55 - [TEST_STEP][PASSED] - pnrWaiverResponse = sendRequest(findTestObject("API/MOZ_11020_API/moz_11533_pnr_waiver_request")): Send request successfully
+
+30-08-2024T20:23:56 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\1.har
+
+30-08-2024T20:23:56 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:23:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(pnrWaiverResponse, 200): Verify response status code successfully
+
+30-08-2024T20:23:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:23:56 - [TEST_STEP][PASSED] - mi_pnr_waiver_remarks = "select * from bdmozart.mi_pnr_waiver_remarks where remarkstext = '" + uniqueNumber + "'": null
+
+30-08-2024T20:23:56 - [TEST_STEP][PASSED] - waiverId = database.DatabaseUtils.executeQuery(mi_pnr_waiver_remarks, "waiver_id", 1): database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:03 - [MESSAGE][PASSED] - database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:03 - [TEST_STEP][PASSED] - md_rfnd_pnr_waivers = "select * from bdmozart.md_rfnd_pnr_waivers where idrequest = '" + requestId + "'" + " order by id desc" + " ": null
+
+30-08-2024T20:24:03 - [TEST_STEP][PASSED] - waiverIdLinkedToRequestId = database.DatabaseUtils.executeQuery(md_rfnd_pnr_waivers, "idmipnrwaiver", 1): database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:07 - [MESSAGE][PASSED] - database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:07 - [TEST_STEP][PASSED] - verifyMatch(waiverIdLinkedToRequestId, waiverId, false): Actual text '84' and expected text '84' are matched 
+
+30-08-2024T20:24:07 - [MESSAGE][PASSED] - Actual text '84' and expected text '84' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOZ-11020/TC 4_MOZ_11533 Verify linking after Json request" time="12.214" classname="Test Cases/MOZ-11020/TC 4_MOZ_11533 Verify linking after Json request" status="PASSED">
+         <system-out><![CDATA[30-08-2024T20:24:07 - [TEST_CASE][PASSED] - Test Cases/MOZ-11020/TC 4_MOZ_11533 Verify linking after Json request: Test Cases/MOZ-11020/TC 4_MOZ_11533 Verify linking after Json request
+
+30-08-2024T20:24:07 - [TEST_STEP][PASSED] - uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(): utilityClass.GenericMethods.UniqueNumberGenerator is PASSED
+
+30-08-2024T20:24:07 - [MESSAGE][PASSED] - utilityClass.GenericMethods.UniqueNumberGenerator is PASSED
+
+30-08-2024T20:24:07 - [TEST_STEP][PASSED] - demoPackage.UtilityDemo.requestNumber(): demoPackage.UtilityDemo.requestNumber is PASSED
+
+30-08-2024T20:24:07 - [MESSAGE][PASSED] - demoPackage.UtilityDemo.requestNumber is PASSED
+
+30-08-2024T20:24:07 - [TEST_STEP][PASSED] - apiRequests.apiConnection.runAuthToken(findTestObject("API/Auth Token")): apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:24:08 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\2.har
+
+30-08-2024T20:24:08 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:24:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:24:08 - [MESSAGE][PASSED] - apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:24:08 - [TEST_STEP][PASSED] - pnrWaiverResponse = sendRequest(findTestObject("API/MOZ_11020_API/moz_11533_pnr_waiver_request")): Send request successfully
+
+30-08-2024T20:24:08 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\3.har
+
+30-08-2024T20:24:08 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:24:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(pnrWaiverResponse, 200): Verify response status code successfully
+
+30-08-2024T20:24:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:24:08 - [TEST_STEP][PASSED] - fullRefundResponse = sendRequest(findTestObject("API/MOZ_11020_API/moz_11533_full_refund-json")): Send request successfully
+
+30-08-2024T20:24:09 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\4.har
+
+30-08-2024T20:24:09 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:24:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(fullRefundResponse, 200): Verify response status code successfully
+
+30-08-2024T20:24:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:24:09 - [TEST_STEP][PASSED] - mozartRequestId = getElementPropertyValue(fullRefundResponse, "data[0].mozart_request_id"): null
+
+30-08-2024T20:24:10 - [TEST_STEP][PASSED] - println("The mozart_request_id is: " + mozartRequestId): null
+
+30-08-2024T20:24:10 - [TEST_STEP][PASSED] - mi_pnr_waiver_remarks = "select * from bdmozart.mi_pnr_waiver_remarks where remarkstext = '" + uniqueNumber + "'": null
+
+30-08-2024T20:24:10 - [TEST_STEP][PASSED] - waiverId = database.DatabaseUtils.executeQuery(mi_pnr_waiver_remarks, "waiver_id", 1): database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:14 - [MESSAGE][PASSED] - database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:14 - [TEST_STEP][PASSED] - println("The Waiver_id is: " + waiverId): null
+
+30-08-2024T20:24:14 - [TEST_STEP][PASSED] - md_rfnd_pnr_waivers = "select * from bdmozart.md_rfnd_pnr_waivers where idrequest = '" + mozartRequestId + "'" + " order by id desc" + " ": null
+
+30-08-2024T20:24:14 - [TEST_STEP][PASSED] - waiverIdLinkedToRequestId = database.DatabaseUtils.executeQuery(md_rfnd_pnr_waivers, "idmipnrwaiver", 1): database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:19 - [MESSAGE][PASSED] - database.DatabaseUtils.executeQuery is PASSED
+
+30-08-2024T20:24:19 - [TEST_STEP][PASSED] - verifyMatch(waiverIdLinkedToRequestId, waiverId, false): Actual text '85' and expected text '85' are matched 
+
+30-08-2024T20:24:19 - [MESSAGE][PASSED] - Actual text '85' and expected text '85' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOZ-11020/TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines" time="5.683" classname="Test Cases/MOZ-11020/TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines" status="PASSED">
+         <system-out><![CDATA[30-08-2024T20:24:19 - [TEST_CASE][PASSED] - Test Cases/MOZ-11020/TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines: Test Cases/MOZ-11020/TC 3_MOZ_11335 Verify PNR Waiver Input WS available to all client airlines
+
+30-08-2024T20:24:20 - [TEST_STEP][PASSED] - PnrWaiverController_check = database.DBConnection.executeQuerys("mozart_emirates", "select * from bdmozart.mc_endpoints_exposed", "enabled", 7): database.DBConnection.executeQuerys is PASSED
+
+30-08-2024T20:24:24 - [MESSAGE][PASSED] - database.DBConnection.executeQuerys is PASSED
+
+30-08-2024T20:24:24 - [TEST_STEP][PASSED] - apiRequests.apiConnection.runAuthToken(findTestObject("API/Auth Token")): apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:24:24 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\5.har
+
+30-08-2024T20:24:24 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:24:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:24:24 - [MESSAGE][PASSED] - apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:24:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/MOZ_11020_API/pnr_waiver_request")): Send request successfully
+
+30-08-2024T20:24:25 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\6.har
+
+30-08-2024T20:24:25 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:24:25 - [TEST_STEP][PASSED] - if (PnrWaiverController_check == "t"): Verify response status code successfully
+
+30-08-2024T20:24:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-08-2024T20:24:25 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOZ-11020/TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response" time="1.069" classname="Test Cases/MOZ-11020/TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response" status="PASSED">
+         <system-out><![CDATA[30-08-2024T20:24:25 - [TEST_CASE][PASSED] - Test Cases/MOZ-11020/TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response: Test Cases/MOZ-11020/TC 2_MOZ-11334 Verify Inclusion of Waiver Effective and Expiry Dates in WS Response
+
+30-08-2024T20:24:25 - [TEST_STEP][PASSED] - apiRequests.apiConnection.runAuthToken(findTestObject("API/Auth Token")): apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:24:26 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\7.har
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - apiRequests.apiConnection.runAuthToken is PASSED
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API/MOZ_11020_API/pnr_waiver_request")): Send request successfully
+
+30-08-2024T20:24:26 - [MESSAGE][INFO] - HAR: C:\Users\ranjit.vadar\Katalon Studio\Mozart Emirates\Reports\20240830_200559\Suite MOZ-11020\20240830_200603\requests\main\8.har
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - Send request successfully
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - responseBody = response.getResponseText(): null
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - println(JsonOutput.prettyPrint(responseBody)): null
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - jsonResponse = slurper.parseText(response.getResponseText()): null
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertTrue(waiver_effective_date != null, "waiver_effective_date is missing in the response"): utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertTrue(waiver_expiry_date != null, "waiver_expiry_date is missing in the response"): utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertAll(): utilityClass.CustomSoftAssert.assertAll is PASSED
+
+30-08-2024T20:24:26 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertAll is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR" time="53.291" classname="Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR" status="PASSED">
+         <system-out><![CDATA[30-08-2024T20:24:26 - [TEST_CASE][PASSED] - Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR: Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR
+
+30-08-2024T20:24:26 - [TEST_STEP][PASSED] - mi_pnr_waiver = database.DatabaseUtils.checkTableExists("mi_pnr_waiver"): database.DatabaseUtils.checkTableExists is PASSED
+
+30-08-2024T20:24:33 - [MESSAGE][INFO] - Table mi_pnr_waiver exists.
+
+30-08-2024T20:24:33 - [MESSAGE][PASSED] - database.DatabaseUtils.checkTableExists is PASSED
+
+30-08-2024T20:24:33 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver, "The mi_pnr_waiver table should be available in the database."): utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:33 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:33 - [TEST_STEP][PASSED] - mi_pnr_waiver_remarks = database.DatabaseUtils.checkTableExists("mi_pnr_waiver_remarks"): database.DatabaseUtils.checkTableExists is PASSED
+
+30-08-2024T20:24:41 - [MESSAGE][INFO] - Table mi_pnr_waiver_remarks exists.
+
+30-08-2024T20:24:41 - [MESSAGE][PASSED] - database.DatabaseUtils.checkTableExists is PASSED
+
+30-08-2024T20:24:41 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertTrue(mi_pnr_waiver_remarks, "The mi_pnr_waiver_remarks table should be available in the database."): utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:41 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:41 - [TEST_STEP][PASSED] - md_rfnd_pnr_waivers = database.DatabaseUtils.checkTableExists("md_rfnd_pnr_waivers"): database.DatabaseUtils.checkTableExists is PASSED
+
+30-08-2024T20:24:53 - [MESSAGE][INFO] - Table md_rfnd_pnr_waivers exists.
+
+30-08-2024T20:24:53 - [MESSAGE][PASSED] - database.DatabaseUtils.checkTableExists is PASSED
+
+30-08-2024T20:24:53 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertTrue(md_rfnd_pnr_waivers, "The md_rfnd_pnr_waivers table should be available in the database."): utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:53 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertTrue is PASSED
+
+30-08-2024T20:24:53 - [TEST_STEP][PASSED] - controller_name_column_row_value = database.DBConnection.SQL("select * from bdmozart.mc_endpoints_exposed where controller_name = 'PnrWaiverController'", "controller_name", 1): database.DBConnection.SQL is PASSED
+
+30-08-2024T20:25:15 - [MESSAGE][PASSED] - database.DBConnection.SQL is PASSED
+
+30-08-2024T20:25:15 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertEquals(controller_name_column_row_value, "PnrWaiverController", "Expected Column value is = PnrWaiverController"): utilityClass.CustomSoftAssert.assertEquals is PASSED
+
+30-08-2024T20:25:15 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertEquals is PASSED
+
+30-08-2024T20:25:15 - [TEST_STEP][PASSED] - description_column_row_value = database.DBConnection.SQL("select * from bdmozart.mc_file_type where code = 'MWF'", "description", 1): database.DBConnection.SQL is PASSED
+
+30-08-2024T20:25:19 - [MESSAGE][PASSED] - database.DBConnection.SQL is PASSED
+
+30-08-2024T20:25:19 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertEquals(description_column_row_value, "Pnr Waiver File", "Expected Column value is = Pnr Waiver File"): utilityClass.CustomSoftAssert.assertEquals is PASSED
+
+30-08-2024T20:25:19 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertEquals is PASSED
+
+30-08-2024T20:25:19 - [TEST_STEP][PASSED] - utilityClass.CustomSoftAssert.assertAll(): utilityClass.CustomSoftAssert.assertAll is PASSED
+
+30-08-2024T20:25:19 - [MESSAGE][PASSED] - utilityClass.CustomSoftAssert.assertAll is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-08-2024T20:21:56 - [TEST_SUITE][PASSED] - Suite MOZ-11020: Test Cases/MOZ-11020/TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

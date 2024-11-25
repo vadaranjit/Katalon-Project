@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 2_MOZ-12910_Verify that store the data of embeeded TKT-Quotes, including error details in case the processing fails</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d62d96d-7f04-4534-b10b-45f9caa7873f</testCaseGuid>
+</TestCaseEntity>

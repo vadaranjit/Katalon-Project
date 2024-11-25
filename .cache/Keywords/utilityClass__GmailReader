@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8280459E74E75DF6F91D667A6374EF13",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.GmailReader",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

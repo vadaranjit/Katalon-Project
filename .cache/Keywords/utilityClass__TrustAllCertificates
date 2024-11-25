@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0047F3740BF96BCB9E9870C01EEB56A4",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.TrustAllCertificates",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

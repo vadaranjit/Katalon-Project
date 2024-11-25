@@ -1,0 +1,71 @@
+{
+  "keywordFileContentHash": "A26D46BA3BD75A6045DE31B7B688AF7B",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.demoPackage",
+      "keywordMethods": [
+        {
+          "name": "selectRoless",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "role",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "",
+                "unresolvedClassName": "",
+                "isArray": true,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "componentType": {
+                  "fullClassName": "java.lang.String",
+                  "unresolvedClassName": "String",
+                  "isArray": false,
+                  "isGnericsPlaceHolder": false,
+                  "hasImmutableClassName": false,
+                  "genericsTypes": [],
+                  "errorOnParsing": false
+                },
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "processJson",
+          "parameters": [
+            {
+              "name": "jsonBody",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Main function to handle the JSON string.\r\n\t * @param jsonBody The JSON string\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

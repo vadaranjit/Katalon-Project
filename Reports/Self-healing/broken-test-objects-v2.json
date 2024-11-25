@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MozartChrome/Page_Mozart - AirlinesHub/button_Please select",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In progress\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/EK_Objects/Page_Mozart - AirlinesHub/a_176 Emirates",
+      "brokenLocator": "//a[@id\u003d\u0027bs-select-1-8\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In progress\u0027])[1]/preceding::a[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/EK_Objects/Page_Mozart - AirlinesHub/a_176 Emirates_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MozartChrome/Page_Mozart - AirlinesHub/a_Select",
+      "brokenLocator": "//a[@id\u003d\u0027airlineSelect\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In progress\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/MozartChrome/Page_Mozart - AirlinesHub/a_Select_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refunds",
+      "brokenLocator": "//a[@id\u003d\u0027navbarDropdown\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027navbarSupportedContent\u0027]/ul/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/EK_Objects/Page_Mozart - Dashboard/a_Refunds_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes",
+      "brokenLocator": "//select[@id\u003d\u0027selectedRefundType\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/EK_Objects/Page_Mozart - RefundsCapture/SelectRefundTypes_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Demo/MozartChrome/Page_/input_Username_Login",
+      "brokenLocator": "//input[@id\u003d\u0027Login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/EK_Objects/Page_Mozart - RefundsSearch/a_Search by request Id",
+      "brokenLocator": "//a[@id\u003d\u0027bs-select-5-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Search by ticket number\u0027])[3]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/EK_Objects/Page_Mozart - RefundsSearch/a_Search by request Id_neighbor.png"
+    }
+  ]
+}

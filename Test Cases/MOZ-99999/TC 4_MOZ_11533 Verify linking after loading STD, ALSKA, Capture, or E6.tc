@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 4_MOZ_11533 Verify linking after loading STD, ALSKA, Capture, or E6</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b68b2080-0313-4e72-ba65-d3a61e983835</testCaseGuid>
+</TestCaseEntity>

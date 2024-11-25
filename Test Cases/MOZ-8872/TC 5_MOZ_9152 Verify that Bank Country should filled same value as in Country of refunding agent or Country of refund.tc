@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 5_MOZ_9152 Verify that Bank Country should filled same value as in Country of refunding agent or Country of refund</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>275fb90f-a93f-44e8-9222-fc8cb582e102</testCaseGuid>
+</TestCaseEntity>

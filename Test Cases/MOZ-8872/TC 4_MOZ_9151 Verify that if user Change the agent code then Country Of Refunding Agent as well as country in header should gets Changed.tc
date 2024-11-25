@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 4_MOZ_9151 Verify that if user Change the agent code then Country Of Refunding Agent as well as country in header should gets Changed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40d4cacf-a68e-496c-b10e-e2cdd42452af</testCaseGuid>
+</TestCaseEntity>

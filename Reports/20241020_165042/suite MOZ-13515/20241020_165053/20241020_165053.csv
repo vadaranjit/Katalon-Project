@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+suite MOZ-13515,,,,20-10-2024 16:54:32,20-10-2024 16:54:40,7.203s,ERROR
+,,,,,,,
+Test Cases/MOZ-13515/New Test Case - Copy,,,,20-10-2024 16:54:33,20-10-2024 16:54:40,6.600s,ERROR
+"documentNumber = ""6720801174""",,,,20-10-2024 16:54:35,20-10-2024 16:54:35,0.005s,PASSED
+uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(),,,,20-10-2024 16:54:35,20-10-2024 16:54:35,0.499s,PASSED
+mozartLogin.Login.launchBrowser(),,,,20-10-2024 16:54:35,20-10-2024 16:54:39,4.301s,ERROR

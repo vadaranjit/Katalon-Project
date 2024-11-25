@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite MOZ-10510,,,,20-10-2024 16:37:02,20-10-2024 16:38:40,1m - 38.224s,ERROR
+,,,,,,,
+Test Cases/MOZ-10510/TC10_MOZ_11451 Display of Refundable Amount and FOP in the Grid,,,,20-10-2024 16:37:03,20-10-2024 16:37:22,19.308s,FAILED
+"requestIdValue = ""O062400001""",,,,20-10-2024 16:37:05,20-10-2024 16:37:05,0.016s,PASSED
+"sqlQuery = ""select * from bdmozart.md_rfnd_local_settlement where idrequest = 'O062400001'""",,,,20-10-2024 16:37:05,20-10-2024 16:37:05,0.000s,PASSED
+"fop_types_dbValue = database.DatabaseUtils.executeQuery(sqlQuery, ""fop_types"", 1)",,,,20-10-2024 16:37:05,20-10-2024 16:37:11,6.640s,PASSED
+"paid_amount_dbValue = database.DatabaseUtils.executeQuery(sqlQuery, ""balanceamounttotal"", 1)",,,,20-10-2024 16:37:11,20-10-2024 16:37:16,5.023s,PASSED
+value = paid_amount_dbValue,,,,20-10-2024 16:37:16,20-10-2024 16:37:16,0.000s,PASSED
+doubleValue = Double.parseDouble(value),,,,20-10-2024 16:37:16,20-10-2024 16:37:16,0.031s,PASSED
+paid_amount_dbValue_int = doubleValue,,,,20-10-2024 16:37:16,20-10-2024 16:37:16,0.000s,PASSED
+paid_amount_dbValue = paid_amount_dbValue_int.toString(),,,,20-10-2024 16:37:16,20-10-2024 16:37:16,0.016s,PASSED
+out.println(paid_amount_dbValue),,,,20-10-2024 16:37:16,20-10-2024 16:37:16,0.078s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),,,,20-10-2024 16:37:16,20-10-2024 16:37:22,5.698s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 9_MOZ_11450 Verifies that the internal configuration in the database is correctly set up to define the form of payments visible in the Local Settlements module,,,,20-10-2024 16:37:22,20-10-2024 16:38:09,47.125s,FAILED
+"Table_md_rfnd_local_settlement = database.DatabaseUtils.checkTableExists(""md_rfnd_local_settlement"")",,,,20-10-2024 16:37:23,20-10-2024 16:37:30,6.240s,PASSED
+"verifyEqual(Table_md_rfnd_local_settlement, true, CONTINUE_ON_FAILURE)",,,,20-10-2024 16:37:30,20-10-2024 16:37:30,0.116s,PASSED
+"Column_paid_locally = database.DatabaseUtils.checkColumnExist(""mc_fop_types"", ""paid_locally"")",,,,20-10-2024 16:37:30,20-10-2024 16:37:35,5.335s,PASSED
+"verifyEqual(Column_paid_locally, true, CONTINUE_ON_FAILURE)",,,,20-10-2024 16:37:35,20-10-2024 16:37:35,0.000s,PASSED
+"rowCount = database.DatabaseUtils.getRowCount(""select * from bdmozart.mc_fop_types where paid_locally = 't'"")",,,,20-10-2024 16:37:35,20-10-2024 16:37:40,4.848s,PASSED
+DataBaseEnableFopList = new java.util.ArrayList(),,,,20-10-2024 16:37:40,20-10-2024 16:37:40,0.016s,PASSED
+FilterFopList = new java.util.ArrayList(),,,,20-10-2024 16:37:40,20-10-2024 16:37:40,0.000s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",,,,20-10-2024 16:37:40,20-10-2024 16:38:05,24.871s,PASSED
+demoPackage.MozartLogin.LoginWithChromeForEK(),,,,20-10-2024 16:38:05,20-10-2024 16:38:09,4.521s,FAILED
+,,,,,,,
+"Test Cases/MOZ-10510/TC 8_MOZ_11449 Verify the Availability of Group By,My Filters, and Download Options in the Local Settlements Module",,,,20-10-2024 16:38:09,20-10-2024 16:38:13,3.843s,FAILED
+demoPackage.MozartLogin.LoginWithChromeForEK(),,,,20-10-2024 16:38:10,20-10-2024 16:38:13,2.985s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 7_MOZ_11448 Verify Grid Display in the Local Settlements Module,,,,20-10-2024 16:38:13,20-10-2024 16:38:17,4.344s,ERROR
+mozartLogin.Login.launchBrowser(),,,,20-10-2024 16:38:14,20-10-2024 16:38:17,3.499s,ERROR
+,,,,,,,
+Test Cases/MOZ-10510/TC 6_MOZ_11447 Verify Default Filtering Values in the Local Settlements Module,,,,20-10-2024 16:38:17,20-10-2024 16:38:21,3.429s,FAILED
+demoPackage.MozartLogin.LoginWithChromeForEK(),,,,20-10-2024 16:38:18,20-10-2024 16:38:21,2.906s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 5_MOZ_11446 Verify Landing Page Layout and Filtering Area for the Local Settlements Module,,,,20-10-2024 16:38:21,20-10-2024 16:38:24,3.214s,FAILED
+demoPackage.MozartLogin.LoginWithChromeForEK(),,,,20-10-2024 16:38:21,20-10-2024 16:38:24,2.720s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 4_MOZ_11445 Verify User Role other than the auditor or supervisor Access Levels for the Local Settlements Module,,,,20-10-2024 16:38:24,20-10-2024 16:38:28,4.224s,FAILED
+"utilityClass.GenericMethods.selectRoles(MozartUser, ""Admin"")",,,,20-10-2024 16:38:25,20-10-2024 16:38:28,3.790s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 3_MOZ_11445 Verify User Role Auditor Access Levels for the Local Settlements Module,,,,20-10-2024 16:38:28,20-10-2024 16:38:32,3.724s,FAILED
+"utilityClass.GenericMethods.selectRoles(MozartUser, ""Supervisor"")",,,,20-10-2024 16:38:29,20-10-2024 16:38:32,2.914s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 2_MOZ_11445 Verify User Role Supervisor Access Levels for the Local Settlements Module,,,,20-10-2024 16:38:32,20-10-2024 16:38:36,3.884s,FAILED
+"utilityClass.GenericMethods.selectRoles(MozartUser, ""Auditor"")",,,,20-10-2024 16:38:33,20-10-2024 16:38:36,3.358s,FAILED
+,,,,,,,
+Test Cases/MOZ-10510/TC 1_MOZ_11444 Verify Creation of the Local Settlements Module in Mozart,,,,20-10-2024 16:38:36,20-10-2024 16:38:40,3.942s,FAILED
+demoPackage.MozartLogin.LoginWithChromeForEK(),,,,20-10-2024 16:38:37,20-10-2024 16:38:40,3.405s,FAILED

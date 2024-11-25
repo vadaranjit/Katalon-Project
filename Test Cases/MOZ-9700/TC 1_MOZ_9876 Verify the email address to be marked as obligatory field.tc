@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1_MOZ_9876 Verify the email address to be marked as obligatory field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7aaf82f-9bed-48d1-b258-4da67faa8175</testCaseGuid>
+</TestCaseEntity>

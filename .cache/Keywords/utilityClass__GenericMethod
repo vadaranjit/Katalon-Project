@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "8E6E82A43C9C7365BEEDD5273299429E",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.GenericMethod",
+      "keywordMethods": [
+        {
+          "name": "selectUsername",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

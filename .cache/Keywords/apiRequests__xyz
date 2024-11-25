@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B2E1AD97B9B131E14B78CD172DDE588E",
+  "keywordClasses": [
+    {
+      "name": "apiRequests.xyz",
+      "keywordMethods": [
+        {
+          "name": "addBasicAuthorizationProperty",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

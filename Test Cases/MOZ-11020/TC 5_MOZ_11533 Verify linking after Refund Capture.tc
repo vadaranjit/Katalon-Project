@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 5_MOZ_11533 Verify linking after Refund Capture</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da83124d-a632-4151-9d06-12e47a217a62</testCaseGuid>
+</TestCaseEntity>

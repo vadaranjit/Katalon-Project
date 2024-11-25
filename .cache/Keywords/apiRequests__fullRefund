@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "24EA0B5CF0130F59FC09EAA2CBCE604B",
+  "keywordClasses": [
+    {
+      "name": "apiRequests.fullRefund",
+      "keywordMethods": [
+        {
+          "name": "xyz",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

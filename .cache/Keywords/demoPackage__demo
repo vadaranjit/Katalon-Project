@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C3698BC3EDA3F486C632A460DD1656B3",
+  "keywordClasses": [
+    {
+      "name": "demoPackage.demo",
+      "keywordMethods": [
+        {
+          "name": "DEMOreadFileName",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

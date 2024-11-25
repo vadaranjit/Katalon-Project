@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="suite MOZ-13515" time="9.151" tests="1" failures="0" errors="1">
+   <testsuite name="suite MOZ-13515" tests="1" failures="0" errors="1" time="9.151" skipped="0" timestamp="20-10-2024T16:41:08" hostname="ranajit.vadar - CCE0231.accelya.local" id="Test Suites/suite MOZ-13515">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20241020_163629\\suite MOZ-13515\\20241020_163639"/>
+         <property name="logFiles" value="C:\\Users\\ranjit.vadar\\Katalon Studio\\Mozart Emirates\\Reports\\20241020_163629\\suite MOZ-13515\\20241020_163639\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ranajit.vadar - CCE0231.accelya.local"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/MOZ-13515/New Test Case - Copy" time="8.104" classname="Test Cases/MOZ-13515/New Test Case - Copy" status="ERROR">
+         <error type="ERROR" message="Test Cases/MOZ-13515/New Test Case - Copy FAILED.&#xa;Reason:&#xa;org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128&#xa;Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: driver.version: ChromeDriver&#xa;remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]&#xa;	(No symbol) [0x00007FF7D678E689]&#xa;	(No symbol) [0x00007FF7D664B1CA]&#xa;	(No symbol) [0x00007FF7D668D6B2]&#xa;	(No symbol) [0x00007FF7D668C751]&#xa;	(No symbol) [0x00007FF7D668729C]&#xa;	(No symbol) [0x00007FF7D6681E0A]&#xa;	(No symbol) [0x00007FF7D66D236D]&#xa;	(No symbol) [0x00007FF7D66D1A20]&#xa;	(No symbol) [0x00007FF7D66C6493]&#xa;	(No symbol) [0x00007FF7D66909B1]&#xa;	(No symbol) [0x00007FF7D6691B11]&#xa;	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]&#xa;	GetHandleVerifier [0x00007FF7D6B84843+3605523]&#xa;	GetHandleVerifier [0x00007FF7D6B7A707+3564247]&#xa;	GetHandleVerifier [0x00007FF7D68D6EB6+797318]&#xa;	(No symbol) [0x00007FF7D679980F]&#xa;	(No symbol) [0x00007FF7D67953F4]&#xa;	(No symbol) [0x00007FF7D6795580]&#xa;	(No symbol) [0x00007FF7D6784A1F]&#xa;	BaseThreadInitThunk [0x00007FFFFF49257D+29]&#xa;	RtlUserThreadStart [0x00007FFFFFE2AF08+40]&#xa;&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#xa;	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)&#xa;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:181)&#xa;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:168)&#xa;	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:157)&#xa;	at mozartLogin.Login.launchBrowser(Login.groovy:31)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at New Test Case - Copy.run(New Test Case - Copy:17)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1729422399555.run(TempTestSuite1729422399555.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[20-10-2024T16:41:09 - [TEST_CASE][ERROR] - Test Cases/MOZ-13515/New Test Case - Copy: Test Cases/MOZ-13515/New Test Case - Copy FAILED.
+Reason:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at mozartLogin.Login.launchBrowser(Login.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at New Test Case - Copy.run(New Test Case - Copy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729422399555.run(TempTestSuite1729422399555.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+20-10-2024T16:41:11 - [TEST_STEP][PASSED] - documentNumber = "6720801174": null
+
+20-10-2024T16:41:11 - [TEST_STEP][PASSED] - uniqueNumber = utilityClass.GenericMethods.UniqueNumberGenerator(): utilityClass.GenericMethods.UniqueNumberGenerator is PASSED
+
+20-10-2024T16:41:12 - [MESSAGE][PASSED] - utilityClass.GenericMethods.UniqueNumberGenerator is PASSED
+
+20-10-2024T16:41:12 - [TEST_STEP][ERROR] - mozartLogin.Login.launchBrowser(): Test Cases/MOZ-13515/New Test Case - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at New Test Case - Copy.run(New Test Case - Copy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729422399555.run(TempTestSuite1729422399555.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at mozartLogin.Login.launchBrowser(Login.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 16 more
+
+
+20-10-2024T16:41:17 - [MESSAGE][ERROR] - session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+
+20-10-2024T16:41:17 - [MESSAGE][ERROR] - Test Cases/MOZ-13515/New Test Case - Copy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at New Test Case - Copy.run(New Test Case - Copy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729422399555.run(TempTestSuite1729422399555.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at mozartLogin.Login.launchBrowser(Login.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 16 more]]></system-out>
+         <system-err><![CDATA[20-10-2024T16:41:09 - [TEST_CASE][ERROR] - Test Cases/MOZ-13515/New Test Case - Copy: Test Cases/MOZ-13515/New Test Case - Copy FAILED.
+Reason:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at mozartLogin.Login.launchBrowser(Login.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at New Test Case - Copy.run(New Test Case - Copy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729422399555.run(TempTestSuite1729422399555.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-10-2024T16:41:08 - [TEST_SUITE][ERROR] - suite MOZ-13515: Test Cases/MOZ-13515/New Test Case - Copy FAILED.
+Reason:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at mozartLogin.Login.launchBrowser(Login.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at New Test Case - Copy.run(New Test Case - Copy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729422399555.run(TempTestSuite1729422399555.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[20-10-2024T16:41:08 - [TEST_SUITE][ERROR] - suite MOZ-13515: Test Cases/MOZ-13515/New Test Case - Copy FAILED.
+Reason:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 128
+Current browser version is 130.0.6723.58 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'CCE0231', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D681B5D2+29090]
+	(No symbol) [0x00007FF7D678E689]
+	(No symbol) [0x00007FF7D664B1CA]
+	(No symbol) [0x00007FF7D668D6B2]
+	(No symbol) [0x00007FF7D668C751]
+	(No symbol) [0x00007FF7D668729C]
+	(No symbol) [0x00007FF7D6681E0A]
+	(No symbol) [0x00007FF7D66D236D]
+	(No symbol) [0x00007FF7D66D1A20]
+	(No symbol) [0x00007FF7D66C6493]
+	(No symbol) [0x00007FF7D66909B1]
+	(No symbol) [0x00007FF7D6691B11]
+	GetHandleVerifier [0x00007FF7D6B38C5D+3295277]
+	GetHandleVerifier [0x00007FF7D6B84843+3605523]
+	GetHandleVerifier [0x00007FF7D6B7A707+3564247]
+	GetHandleVerifier [0x00007FF7D68D6EB6+797318]
+	(No symbol) [0x00007FF7D679980F]
+	(No symbol) [0x00007FF7D67953F4]
+	(No symbol) [0x00007FF7D6795580]
+	(No symbol) [0x00007FF7D6784A1F]
+	BaseThreadInitThunk [0x00007FFFFF49257D+29]
+	RtlUserThreadStart [0x00007FFFFFE2AF08+40]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at mozartLogin.Login.launchBrowser(Login.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at New Test Case - Copy.run(New Test Case - Copy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729422399555.run(TempTestSuite1729422399555.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

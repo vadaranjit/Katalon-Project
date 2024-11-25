@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 3_MOZ_11445 Verify User Role Auditor Access Levels for the Local Settlements Module</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97e575ed-2c17-46bd-b146-b134c32d6028</testCaseGuid>
+</TestCaseEntity>

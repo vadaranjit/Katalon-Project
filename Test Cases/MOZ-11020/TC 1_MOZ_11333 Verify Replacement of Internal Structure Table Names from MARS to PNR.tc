@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1_MOZ_11333 Verify Replacement of Internal Structure Table Names from MARS to PNR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>657e06ea-5b26-4e86-9d93-bbf873744de0</testCaseGuid>
+</TestCaseEntity>

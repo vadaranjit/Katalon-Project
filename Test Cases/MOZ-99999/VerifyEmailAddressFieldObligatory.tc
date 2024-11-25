@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>MOZ-9700 : EK Capture screen - email address to be made obligatory field to be filled</description>
+   <name>VerifyEmailAddressFieldObligatory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d59753e-0e4f-4caf-b7e0-6865b8c853a3</testCaseGuid>
+</TestCaseEntity>

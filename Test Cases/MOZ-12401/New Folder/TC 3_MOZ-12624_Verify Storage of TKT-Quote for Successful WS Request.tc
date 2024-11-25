@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 3_MOZ-12624_Verify Storage of TKT-Quote for Successful WS Request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>482d9b8b-82f6-4881-9734-b9cc2946da7e</testCaseGuid>
+</TestCaseEntity>

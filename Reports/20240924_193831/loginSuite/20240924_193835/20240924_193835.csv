@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginSuite,,,,24-09-2024 19:39:35,24-09-2024 19:39:41,6.416s,FAILED
+,,,,,,,
+Test Cases/MOZ-99999/login1,,,,24-09-2024 19:39:41,24-09-2024 19:39:41,0.121s,FAILED
+mozartLogin.Login.launchBrowser(),,,,24-09-2024 19:39:41,24-09-2024 19:39:41,0.071s,FAILED

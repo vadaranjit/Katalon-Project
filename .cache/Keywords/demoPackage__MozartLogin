@@ -1,0 +1,36 @@
+{
+  "keywordFileContentHash": "F4B3E014B0CC5496EA10E75009BDFC45",
+  "keywordClasses": [
+    {
+      "name": "demoPackage.MozartLogin",
+      "keywordMethods": [
+        {
+          "name": "loginDemo",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "LoginWithChrome",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "LoginWithChromeForEK",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "mozartLoginWithUser",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "LoginForAll",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getAllColumnWithValues</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e94ad85-76f0-4b25-9098-912473cbaf1d</testCaseGuid>
+</TestCaseEntity>

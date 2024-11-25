@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 2_MOZ-9885 Verify that when the email address is not filled than user can still save it as a draft</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d29a9758-8fe8-44fd-b60f-604bc3a37c2d</testCaseGuid>
+</TestCaseEntity>

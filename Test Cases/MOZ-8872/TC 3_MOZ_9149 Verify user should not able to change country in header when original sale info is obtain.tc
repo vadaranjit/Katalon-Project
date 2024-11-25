@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 3_MOZ_9149 Verify user should not able to change country in header when original sale info is obtain</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ff6e781-64c4-4d24-9687-833d66ac7642</testCaseGuid>
+</TestCaseEntity>

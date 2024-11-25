@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 5_MOZ_11446 Verify Landing Page Layout and Filtering Area for the Local Settlements Module</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ddd01ad3-03de-4af4-bd99-abbab745d179</testCaseGuid>
+</TestCaseEntity>

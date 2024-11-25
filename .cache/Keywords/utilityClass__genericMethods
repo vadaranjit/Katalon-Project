@@ -1,0 +1,89 @@
+{
+  "keywordFileContentHash": "28DC82A8DC5BBABB77CD3CAE6187DCBE",
+  "keywordClasses": [
+    {
+      "name": "utilityClass.GenericMethods",
+      "keywordMethods": [
+        {
+          "name": "selectRoles",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "role",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "",
+                "unresolvedClassName": "",
+                "isArray": true,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "componentType": {
+                  "fullClassName": "java.lang.String",
+                  "unresolvedClassName": "String",
+                  "isArray": false,
+                  "isGnericsPlaceHolder": false,
+                  "hasImmutableClassName": false,
+                  "genericsTypes": [],
+                  "errorOnParsing": false
+                },
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "UniqueNumberGenerator",
+          "parameters": []
+        },
+        {
+          "name": "ScrollLeft",
+          "parameters": []
+        },
+        {
+          "name": "scrollRight",
+          "parameters": []
+        },
+        {
+          "name": "scrollUp",
+          "parameters": []
+        },
+        {
+          "name": "scrollDown",
+          "parameters": []
+        },
+        {
+          "name": "DateFormatter",
+          "parameters": [
+            {
+              "name": "dateStr",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "81FF6466CD50C544405A89420C162B66",
+  "keywordClasses": [
+    {
+      "name": "apiRequests.SimplePostRequest",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

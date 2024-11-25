@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginSuite2,Firefox 127.0,,,23-09-2024 18:01:55,23-09-2024 18:02:40,44.335s,PASSED
+,,,,,,,
+Test Cases/MOZ-99999/login1,Firefox 127.0,,,23-09-2024 18:01:56,23-09-2024 18:02:40,43.858s,PASSED
+mozartLogin.Login.launchBrowser(),Firefox 127.0,,,23-09-2024 18:01:56,23-09-2024 18:02:38,41.972s,PASSED
+closeBrowser(),Firefox 127.0,,,23-09-2024 18:02:38,23-09-2024 18:02:40,1.455s,PASSED

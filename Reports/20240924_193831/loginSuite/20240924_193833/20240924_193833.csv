@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+loginSuite,Chrome 128.0.0.0,,,24-09-2024 19:38:48,24-09-2024 19:39:03,14.438s,FAILED
+,,,,,,,
+Test Cases/MOZ-99999/login1,Chrome 128.0.0.0,,,24-09-2024 19:39:00,24-09-2024 19:39:03,2.760s,FAILED
+mozartLogin.Login.launchBrowser(),Chrome 128.0.0.0,,,24-09-2024 19:39:00,24-09-2024 19:39:03,2.716s,FAILED

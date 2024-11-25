@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_1_MOZ-13227_Verify that the system correctly identifies a TRIPS-Quote embedded in a refund request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2cbca84-f1b1-44a0-aa33-7f2f7012dfe8</testCaseGuid>
+</TestCaseEntity>

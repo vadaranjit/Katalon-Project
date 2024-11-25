@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F6CF993E2FBC38B1D06CCFAB8716EF1B",
+  "keywordClasses": [
+    {
+      "name": "dbConnection.CheckTableExistOrNot",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

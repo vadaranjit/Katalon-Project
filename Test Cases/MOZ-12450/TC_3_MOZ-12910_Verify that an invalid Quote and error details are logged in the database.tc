@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_3_MOZ-12910_Verify that an invalid Quote and error details are logged in the database</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>214b0934-7be3-498e-a103-55f19c1b4bbd</testCaseGuid>
+</TestCaseEntity>

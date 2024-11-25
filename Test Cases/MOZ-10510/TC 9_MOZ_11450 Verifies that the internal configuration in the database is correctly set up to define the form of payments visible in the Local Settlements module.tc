@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 9_MOZ_11450 Verifies that the internal configuration in the database is correctly set up to define the form of payments visible in the Local Settlements module</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5bf38bed-0f9e-463b-a46a-0966475aa912</testCaseGuid>
+</TestCaseEntity>

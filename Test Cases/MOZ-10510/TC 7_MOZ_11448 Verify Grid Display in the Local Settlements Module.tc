@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 7_MOZ_11448 Verify Grid Display in the Local Settlements Module</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37261af0-3e0d-4fc7-ae29-ba207be74ee2</testCaseGuid>
+</TestCaseEntity>

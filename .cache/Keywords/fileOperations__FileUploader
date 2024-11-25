@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "1B4A972AE52DF8A55B71C66724BB5D77",
+  "keywordClasses": [
+    {
+      "name": "fileOperations.FileUploader",
+      "keywordMethods": [
+        {
+          "name": "uploadFileToServer",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

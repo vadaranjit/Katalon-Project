@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1_MOZ_11444 Verify Creation of the Local Settlements Module in Mozart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>85a7ebfe-229f-4169-8c7e-753e7017e71f</testCaseGuid>
+</TestCaseEntity>
