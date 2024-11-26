@@ -6,7 +6,8 @@
       "keywordMethods": [
         {
           "name": "connectDB",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "mozartAirline",
@@ -24,7 +25,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "SQL",
@@ -68,7 +70,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "executeQuerys",
@@ -125,10 +128,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * Executes a SQL query and retrieves a specific column value from a specified row in the result set.\r\n\t *\r\n\t * @param database_name The name of the database to connect to.\r\n\t * @param sql_query The SQL query to be executed.\r\n\t * @param column_name The name of the column from which to retrieve the value.\r\n\t * @param row_num The row number from which to retrieve the value (1-based index).\r\n\t * @return The value from the specified column and row as a String.\r\n\t *\r\n\t * @throws SQLException If a database access error occurs or the SQL query is incorrect.\r\n\t * @throws IllegalArgumentException If the column_name or row_num are invalid.\r\n\t *\r\n\t * Example:\r\n\t * \u003cpre\u003e\r\n\t * {@code\r\n\t * String result \u003d CustomKeywords.\u0027your.package.name.executeQuerys\u0027(\u0027yourDatabase\u0027, \u0027SELECT * FROM yourTable\u0027, \u0027columnName\u0027, 1);\r\n\t * }\r\n\t * \u003c/pre\u003e\r\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

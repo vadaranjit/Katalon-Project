@@ -15,7 +15,7 @@
       <guid>20538e87-63ed-4b24-b154-2612b7258830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MOZ-13515/New Test Case - Copy</testCaseId>
+      <testCaseId>Test Cases/MOZ-13515/TC 1_MOZ_13518_Verify</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

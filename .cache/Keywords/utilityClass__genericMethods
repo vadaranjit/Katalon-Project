@@ -42,27 +42,33 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * Selects roles for a user based on the provided parameters.\r\n\t * We need to call this method before login. This method selects the user role and closes the browser.\r\n\t * In This method we can select single or multiple user roles.\r\n\t * Example usage:\r\n\t * \u003cpre\u003e\r\n\t *     selectRoles(\u0027ranajitvadar\u0027, \u0027Auditor\u0027, \u0027Supervisor\u0027, \u0027Admin\u0027)\r\n\t * \u003c/pre\u003e\r\n\t * @param username The username of the person for whom roles are being assigned.\r\n\t * @param roles A variable number of roles to be assigned to the user. \r\n\t *              Possible roles include \u0027Auditor\u0027, \u0027Supervisor\u0027, \u0027Admin\u0027, etc.\r\n\t * \r\n\t * @return A confirmation message indicating that the roles have been assigned.\r\n\t * \r\n\t * @throws IllegalArgumentException if the username is null or empty, or if no roles are provided.\r\n\t * \r\n\t */"
         },
         {
           "name": "UniqueNumberGenerator",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Generates a unique number based on the current date and time.\r\n\t *\r\n\t * This method creates a unique string by formatting the current date and time,\r\n\t * removing spaces and colons, and storing the result in a global variable.\r\n\t * The unique number is generated in the format \u0027yyyyMMddHHmmss\u0027, ensuring uniqueness\r\n\t * based on the timestamp when the method is called.\r\n\t *\r\n\t * @return A unique string generated from the current date and time.\r\n\t *\r\n\t * @see GlobalVariable#UniqueNumber\r\n\t *\r\n\t * Example usage:\r\n\t * \u003cpre\u003e\r\n\t *     String uniqueNumber \u003d UniqueNumberGenerator()\r\n\t *     println(\"Generated Unique Number: \" + uniqueNumber)\r\n\t * \u003c/pre\u003e\r\n\t */"
         },
         {
           "name": "ScrollLeft",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Scrolls the view to the left side of the table within a scrollable container.\r\n\t * The horizontal scroll position is set to the far left (0 pixels).\r\n\t */"
         },
         {
           "name": "scrollRight",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Scrolls the view to the right side of the table within a scrollable container.\r\n\t * The horizontal scroll position is set to 1000 pixels, assuming this moves to the far right of the table.\r\n\t */"
         },
         {
           "name": "scrollUp",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Scrolls the view to the top of the table within a scrollable container.\r\n\t * The vertical scroll position is set to the top (0 pixels).\r\n\t */"
         },
         {
           "name": "scrollDown",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Scrolls the view downward within the table inside a scrollable container.\r\n\t * The vertical scroll position is set to 200 pixels down from the top.\r\n\t */"
         },
         {
           "name": "DateFormatter",
@@ -80,10 +86,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
